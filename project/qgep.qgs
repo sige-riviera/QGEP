@@ -45828,7 +45828,10 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions" value="COALESCE( &quot;identifier&quot;, '&lt;NULL>' )"/>
+        <property key="dualview/previewExpressions">
+          <value>COALESCE( "identifier", '&lt;NULL>' )</value>
+          <value>COALESCE( "identifier", '&lt;NULL>' )</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="ii_labeling" value="pal"/>
         <property key="ii_labeling/addDirectionSymbol" value="false"/>
@@ -46041,16 +46044,16 @@ def my_form_open(dialog, layer, feature):
               <Option type="Map">
                 <Option name="map" type="List">
                   <Option type="Map">
-                    <Option name="Discharge Point" value="discharge_point" type="QString"/>
+                    <Option name="Exutoire en milieu récepteur" value="discharge_point" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Infiltration Installation" value="infiltration_installation" type="QString"/>
+                    <Option name="Installation d'infiltration" value="infiltration_installation" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Manhole" value="manhole" type="QString"/>
+                    <Option name="Chambre standard" value="manhole" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Special Structure" value="special_structure" type="QString"/>
+                    <Option name="Ouvrage spécial" value="special_structure" type="QString"/>
                   </Option>
                 </Option>
               </Option>
@@ -46072,7 +46075,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByValue" value="true" type="bool"/>
                 <Option name="UseCompleter" value="false" type="bool"/>
-                <Option name="Value" value="value_en" type="QString"/>
+                <Option name="Value" value="value_fr" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -46625,10 +46628,11 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="Range">
             <config>
               <Option type="Map">
-                <Option name="AllowNull" value="1" type="QString"/>
-                <Option name="Max" value="4000" type="QString"/>
-                <Option name="Min" value="0" type="QString"/>
-                <Option name="Step" value="100" type="QString"/>
+                <Option name="AllowNull" value="true" type="bool"/>
+                <Option name="Max" value="4000" type="int"/>
+                <Option name="Min" value="0" type="int"/>
+                <Option name="Precision" value="0" type="int"/>
+                <Option name="Step" value="100" type="int"/>
                 <Option name="Style" value="SpinBox" type="QString"/>
                 <Option name="Suffix" value="mm" type="QString"/>
               </Option>
@@ -46639,10 +46643,11 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="Range">
             <config>
               <Option type="Map">
-                <Option name="AllowNull" value="1" type="QString"/>
-                <Option name="Max" value="4000" type="QString"/>
-                <Option name="Min" value="0" type="QString"/>
-                <Option name="Step" value="100" type="QString"/>
+                <Option name="AllowNull" value="true" type="bool"/>
+                <Option name="Max" value="4000" type="int"/>
+                <Option name="Min" value="0" type="int"/>
+                <Option name="Precision" value="0" type="int"/>
+                <Option name="Step" value="100" type="int"/>
                 <Option name="Style" value="SpinBox" type="QString"/>
                 <Option name="Suffix" value="mm" type="QString"/>
               </Option>
@@ -47197,7 +47202,7 @@ def my_form_open(dialog, layer, feature):
       <aliases>
         <alias field="identifier" name="Identifiant" index="0"/>
         <alias field="ws_type" name="Type d'ouvrage" index="1"/>
-        <alias field="ma_function" name="" index="2"/>
+        <alias field="ma_function" name="Fonction de regard" index="2"/>
         <alias field="ss_function" name="" index="3"/>
         <alias field="fk_owner" name="" index="4"/>
         <alias field="status" name="" index="5"/>
@@ -47236,8 +47241,8 @@ def my_form_open(dialog, layer, feature):
         <alias field="co_positional_accuracy" name="" index="38"/>
         <alias field="co_sludge_bucket" name="" index="39"/>
         <alias field="co_venting" name="" index="40"/>
-        <alias field="ma_dimension1" name="" index="41"/>
-        <alias field="ma_dimension2" name="" index="42"/>
+        <alias field="ma_dimension1" name="Dimension 1" index="41"/>
+        <alias field="ma_dimension2" name="Dimension 2" index="42"/>
         <alias field="ma_material" name="" index="43"/>
         <alias field="ma_surface_inflow" name="" index="44"/>
         <alias field="ma_orientation" name="" index="45"/>
@@ -47453,7 +47458,7 @@ def my_form_open(dialog, layer, feature):
       </constraints>
       <constraintExpressions>
         <constraint field="identifier" desc="" exp=""/>
-        <constraint field="ws_type" desc="Please choose a wastewater structure type" exp="&quot;ws_type&quot; IS NOT NULL"/>
+        <constraint field="ws_type" desc="Sélectionner un type d'ouvrage" exp="&quot;ws_type&quot; IS NOT NULL"/>
         <constraint field="ma_function" desc="" exp=""/>
         <constraint field="ss_function" desc="" exp=""/>
         <constraint field="fk_owner" desc="" exp=""/>
@@ -47539,12 +47544,12 @@ def my_form_open(dialog, layer, feature):
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
-        <actionsetting action="from qgepplugin.gui import forms&#xa;&#xa;import qgepplugin&#xa;&#xa;feature = next( QgsProject.instance().mapLayer('od_wastewater_structure').getFeatures( QgsFeatureRequest().setFilterExpression( 'obj_id = \'{}\''.format( '[% &quot;obj_id&quot; %]' ) ) ) )&#xa;qgepplugin.gui.forms.digitizeDrainageChannel(feature.id(), 'od_wastewater_structure')" shortTitle="" icon="" id="{9e50cd85-d219-4f1d-87b6-c6109e1cf8fc}" name="Digitize Drainage Channel" capture="0" notificationMessage="" isEnabledOnlyWhenEditable="0" type="1">
+        <actionsetting action="from qgepplugin.gui import forms&#xa;&#xa;import qgepplugin&#xa;&#xa;feature = next( QgsProject.instance().mapLayer('od_wastewater_structure').getFeatures( QgsFeatureRequest().setFilterExpression( 'obj_id = \'{}\''.format( '[% &quot;obj_id&quot; %]' ) ) ) )&#xa;qgepplugin.gui.forms.digitizeDrainageChannel(feature.id(), 'od_wastewater_structure')" shortTitle="" icon="" id="{e3ef2fe7-ab89-47c7-8616-eac869f47862}" name="Digitize Drainage Channel" capture="0" notificationMessage="" isEnabledOnlyWhenEditable="0" type="1">
           <actionScope id="Canvas"/>
           <actionScope id="Field"/>
           <actionScope id="Feature"/>
         </actionsetting>
-        <actionsetting action="ws_lyr = QgsProject.instance().mapLayer('od_wastewater_structure')&#xa;feature = next( ws_lyr.getFeatures( QgsFeatureRequest().setFilterExpression( 'obj_id = \'{}\''.format( '[% &quot;obj_id&quot; %]' ) ) ) )&#xa;ws_lyr.startEditing()&#xa;ws_lyr.selectByIds([feature.id()])&#xa;qgis.utils.iface.setActiveLayer(ws_lyr)&#xa;qgis.utils.iface.actionAddPart().trigger()" shortTitle="" icon="" id="{1560a3bd-29bc-4b17-aa07-f5a439fd2c0c}" name="Digitize" capture="0" notificationMessage="" isEnabledOnlyWhenEditable="0" type="1">
+        <actionsetting action="ws_lyr = QgsProject.instance().mapLayer('od_wastewater_structure')&#xa;feature = next( ws_lyr.getFeatures( QgsFeatureRequest().setFilterExpression( 'obj_id = \'{}\''.format( '[% &quot;obj_id&quot; %]' ) ) ) )&#xa;ws_lyr.startEditing()&#xa;ws_lyr.selectByIds([feature.id()])&#xa;qgis.utils.iface.setActiveLayer(ws_lyr)&#xa;qgis.utils.iface.actionAddPart().trigger()" shortTitle="" icon="" id="{4f9e84a5-f71f-45b1-888e-81e94eb5935b}" name="Digitize" capture="0" notificationMessage="" isEnabledOnlyWhenEditable="0" type="1">
           <actionScope id="Canvas"/>
           <actionScope id="Field"/>
           <actionScope id="Feature"/>
@@ -47808,6 +47813,9 @@ def my_form_open(dialog, layer, feature):
         <attributeEditorContainer visibilityExpressionEnabled="0" visibilityExpression="" name="Général" showLabel="1" columnCount="2" groupBox="0">
           <attributeEditorField name="identifier" showLabel="1" index="0"/>
           <attributeEditorField name="ws_type" showLabel="1" index="1"/>
+          <attributeEditorField name="ma_function" showLabel="1" index="2"/>
+          <attributeEditorField name="ma_dimension1" showLabel="1" index="41"/>
+          <attributeEditorField name="ma_dimension2" showLabel="1" index="42"/>
         </attributeEditorContainer>
       </attributeEditorForm>
       <editable>
