@@ -24,14 +24,14 @@
  <context>
   <name>project:layers:vw_qgep_wastewater_structure:fieldaliases</name>
   <message>
-   <source>ma_function</source>
+   <source>Fonction de regard</source>
    <translation type="unfinished"/>
   </message>
  </context>
  <context>
   <name>project:layers:vw_qgep_wastewater_structure:fields:ma_function:valuerelationvalue</name>
   <message>
-   <source>value_en</source>
+   <source>value_fr</source>
    <translation type="unfinished"/>
   </message>
  </context>
@@ -339,7 +339,7 @@
  <context>
   <name>project:layers:vw_qgep_wastewater_structure:fieldaliases</name>
   <message>
-   <source>co_level</source>
+   <source>Altitude couvercle</source>
    <translation type="unfinished"/>
   </message>
  </context>
@@ -402,14 +402,14 @@
  <context>
   <name>project:layers:vw_qgep_wastewater_structure:fieldaliases</name>
   <message>
-   <source>ma_dimension1</source>
+   <source>Dimension 1</source>
    <translation type="unfinished"/>
   </message>
  </context>
  <context>
   <name>project:layers:vw_qgep_wastewater_structure:fieldaliases</name>
   <message>
-   <source>ma_dimension2</source>
+   <source>Dimension 2</source>
    <translation type="unfinished"/>
   </message>
  </context>
