@@ -593,10 +593,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>2558765.42710168985649943</xmin>
-      <ymin>1143275.80418658605776727</ymin>
-      <xmax>2558872.74210180668160319</xmax>
-      <ymax>1143366.47371547273360193</ymax>
+      <xmin>2558751.89366417890414596</xmin>
+      <ymin>1143273.09220741945318878</ymin>
+      <xmax>2558859.20866428827866912</xmax>
+      <ymax>1143363.7617363000754267</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -37148,7 +37148,7 @@ def my_form_open(dialog, layer, feature):
         <field name="usage_current" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
-      <previewExpression>COALESCE( "description", '&lt;NULL>' )</previewExpression>
+      <previewExpression>COALESCE( "obj_id", '&lt;NULL>' )</previewExpression>
       <mapTip></mapTip>
     </maplayer>
     <maplayer simplifyMaxScale="1" simplifyDrawingHints="1" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" geometry="Line" type="vector" readOnly="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" minScale="1e+08" wkbType="CompoundCurve" refreshOnNotifyMessage="" maxScale="0" styleCategories="AllStyleCategories" simplifyLocal="0" autoRefreshEnabled="0" simplifyAlgorithm="0">
