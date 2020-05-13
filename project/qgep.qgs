@@ -42714,8 +42714,8 @@ def my_form_open(dialog, layer, feature):
         </effect>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{896424ff-32c4-4512-975d-6f8b00c664aa}">
-          <rule filter=" &quot;ws_fk_owner&quot; = 'ch15z36dOG000025'" description="SIGE" key="{5f5d79ac-4292-470e-8ae4-2b3bcd4325e5}">
+        <rules key="{36356508-ece0-40d7-9aa5-459549adb2a7}">
+          <rule filter=" &quot;ws_fk_owner&quot; = 'ch15z36dOG000025'" description="SIGE" key="{5f1ff912-5654-4d17-9608-c94c492ba9e1}">
             <settings calloutType="simple">
               <text-style textColor="214,28,0,255" blendMode="0" fontItalic="0" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', ''),&#xd;&#xa;COALESCE(&quot;remark&quot;||' ', ''),&#xd;&#xa;'\n',&#xa;COALESCE(&quot;length_effective&quot;|| 'm ', ''),&#xd;&#xa;'\n',&#xa;COALESCE(&quot;_slope_per_mill&quot;||'‰ ','' ),&#xd;&#xa;COALESCE(&quot;ws_year_of_construction&quot;|| ' ','')&#xa;)" fontWeight="50" fontSize="8" textOpacity="1" fontSizeUnit="Point" fontCapitals="0" useSubstitutions="0" fontFamily="MS Shell Dlg 2" previewBkgrdColor="255,255,255,255" multilineHeight="1" isExpression="1" namedStyle="Normal" textOrientation="horizontal" fontWordSpacing="0" fontStrikeout="0" fontKerning="1" fontUnderline="0">
                 <text-buffer bufferOpacity="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1" bufferBlendMode="0" bufferJoinStyle="128" bufferNoFill="0" bufferColor="255,255,255,255" bufferSizeUnits="MM" bufferDraw="1"/>
@@ -42810,7 +42810,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter=" &quot;ws_fk_owner&quot; != 'ch15z36dOG000025'" description="Communal ou privé" key="{0bc99d08-096a-4736-8188-36fe0d453586}">
+          <rule filter=" &quot;ws_fk_owner&quot; != 'ch15z36dOG000025'" description="Communal ou privé" key="{f8955226-8456-4fb1-84dd-b898d54e9ee8}">
             <settings calloutType="simple">
               <text-style textColor="35,35,35,255" blendMode="0" fontItalic="0" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', '')&#xa;)" fontWeight="50" fontSize="8" textOpacity="1" fontSizeUnit="Point" fontCapitals="0" useSubstitutions="0" fontFamily="MS Shell Dlg 2" previewBkgrdColor="255,255,255,255" multilineHeight="1" isExpression="1" namedStyle="Normal" textOrientation="horizontal" fontWordSpacing="0" fontStrikeout="0" fontKerning="1" fontUnderline="0">
                 <text-buffer bufferOpacity="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1" bufferBlendMode="0" bufferJoinStyle="128" bufferNoFill="0" bufferColor="255,255,255,255" bufferSizeUnits="MM" bufferDraw="1"/>
@@ -43362,7 +43362,100 @@ def my_form_open(dialog, layer, feature):
               <Option type="Map">
                 <Option name="map" type="List">
                   <Option type="Map">
+                    <Option value="2001 - St-Saphorin - Les Gonelles" name="2001 - St-Saphorin - Les Gonelles" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3001 - Roseville - Aviron" name="3001 - Roseville - Aviron" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3003 - La Veyre d'En-Haut - Aviron" name="3003 - La Veyre d'En-Haut - Aviron" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3004 - En Clies - Aviron" name="3004 - En Clies - Aviron" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3005 - Entre-Deux-Villes - Aviron" name="3005 - Entre-Deux-Villes - Aviron" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3007 - Mt-Pèlerin - Route de La Crottaz" name="3007 - Mt-Pèlerin - Route de La Crottaz" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3008 - Châtel-St-Denis - Gilamont" name="3008 - Châtel-St-Denis - Gilamont" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3009 - Rio Gredon - Gilamont" name="3009 - Rio Gredon - Gilamont" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3010 - Bellevue - Bon-Vallon" name="3010 - Bellevue - Bon-Vallon" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3011 - La Tuilière - Bon-Vallon" name="3011 - La Tuilière - Bon-Vallon" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3012 - La Bergère" name="3012 - La Bergère" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3013 - Chemin Vert" name="3013 - Chemin Vert" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="3014 - Les Crosets - Av. de Corsier" name="3014 - Les Crosets - Av. de Corsier" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="4001 - En Enfer - Ch. Du Gregnolet" name="4001 - En Enfer - Ch. Du Gregnolet" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="4003 - Route des Cerisiers - Burier" name="4003 - Route des Cerisiers - Burier" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="4005 - Rte de Chailly - Entre-Deux-Villes" name="4005 - Rte de Chailly - Entre-Deux-Villes" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="4006 - L'Ognonnaz" name="4006 - L'Ognonnaz" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5001 - Chaulin - Pierrier" name="5001 - Chaulin - Pierrier" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5002 - Les Avants - Eurotel" name="5002 - Les Avants - Eurotel" type="QString"/>
+                  </Option>
+                  <Option type="Map">
                     <Option value="5003 - Quai de Montreux" name="5003 - Quai de Montreux" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5004 - Sur Chailly - Pierrier" name="5004 - Sur Chailly - Pierrier" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5004 sup. - Praz Donnaz - Plan Chailly" name="5004 sup. - Praz Donnaz - Plan Chailly" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5004 B - Les Chevalleyres - Hauteville" name="5004 B - Les Chevalleyres - Hauteville" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5004 F - Chantemerle – Chailly" name="5004 F - Chantemerle – Chailly" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5005 - Le Basset" name="5005 - Le Basset" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5006 - La Maladaire" name="5006 - La Maladaire" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5007 - Ondallaz -Tavel" name="5007 - Ondallaz -Tavel" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5008 - Haut de Caux - Douane" name="5008 - Haut de Caux - Douane" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5009 - Chillon - Veraye" name="5009 - Chillon - Veraye" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5010 - Grandchamp - Chillon" name="5010 - Grandchamp - Chillon" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="5011 - Liboson" name="5011 - Liboson" type="QString"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option value="{2839923C-8B7D-419E-B84B-CA2FE9B80EC7}" name="&lt;NULL>" type="QString"/>
                   </Option>
                 </Option>
               </Option>
