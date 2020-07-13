@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="André Kevin" version="3.14.0-Pi" projectname="" saveUser="andrek" saveDateTime="2020-07-13T14:19:23">
+<qgis saveUserFull="André Kevin" version="3.14.0-Pi" projectname="" saveUser="andrek" saveDateTime="2020-07-13T14:51:06">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -29,7 +29,7 @@
     <layer-tree-layer id="plans_topobase_qgep_231cc5c0_2d86_4c33_aaa1_031642b02726" name="Stage_plans_topobase_qgep" legend_exp="" providerKey="ogr" source="S:/05_CADASTRE/PROJETS CADASTRE/21 QGEP - corrections migration Topobase/Corrections manuelles/plans_topobase_qgep.shp" checked="Qt::Checked" patch_size="0,0" legend_split_behavior="0" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="vw_qgep_wastewater_structure" name="Chambres" legend_exp="" providerKey="postgres" source="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" checked="Qt::Checked" patch_size="0,0" legend_split_behavior="0" expanded="0">
+    <layer-tree-layer id="vw_qgep_wastewater_structure" name="Chambres" legend_exp="" providerKey="postgres" source="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" checked="Qt::Checked" patch_size="0,0" legend_split_behavior="0" expanded="0">
       <customproperties>
         <property key="expandedLegendNodes" value="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </customproperties>
@@ -491,30 +491,30 @@
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" mode="3" minScale="0" enabled="0" type="3" maxScale="0" unit="2" tolerance="0" self-snapping="0" scaleDependencyMode="0">
     <individual-layer-settings>
-      <layer-setting id="vw_qgep_reach" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
-      <layer-setting id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" minScale="0" enabled="1" type="1" maxScale="0" tolerance="5" units="1"/>
-      <layer-setting id="vw_network_segment20150607120529381" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
-      <layer-setting id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="vw_qgep_wastewater_structure" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
-      <layer-setting id="vw_network_node20150607120529398" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
-      <layer-setting id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" minScale="0" enabled="1" type="1" maxScale="0" tolerance="5" units="1"/>
-      <layer-setting id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="lc_limites_commune_copier20181108104112378" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="od_element_lineaire_copier20181108104112570" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="bf_point_limite_copier20181108104111885" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="vw_cover___" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
       <layer-setting id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" minScale="0" enabled="0" type="1" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting id="pf_points_fixes_copier20181108104112082" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="no_nomenclature_copier20181108104111532" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="od_wastewater_structure" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
-      <layer-setting id="ab_rue_copier20181108104112287" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="plans_topobase_qgep_231cc5c0_2d86_4c33_aaa1_031642b02726" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
-      <layer-setting id="cs_couverture_sol_copier20181108104113163" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
       <layer-setting id="bf_immeuble_copier20181108104112829" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" minScale="0" enabled="1" type="1" maxScale="0" tolerance="5" units="1"/>
+      <layer-setting id="vw_cover___" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
+      <layer-setting id="bf_point_limite_copier20181108104111885" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" minScale="0" enabled="1" type="1" maxScale="0" tolerance="5" units="1"/>
+      <layer-setting id="od_wastewater_structure" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
+      <layer-setting id="pf_points_fixes_copier20181108104112082" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="vw_network_node20150607120529398" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
+      <layer-setting id="lc_limites_commune_copier20181108104112378" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="vw_qgep_wastewater_structure" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
+      <layer-setting id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="od_entree_batiment_copier20181108104111732" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="no_nomenclature_copier20181108104111532" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="ab_rue_copier20181108104112287" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="vw_network_segment20150607120529381" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
+      <layer-setting id="cs_couverture_sol_copier20181108104113163" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="vw_qgep_reach" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
+      <layer-setting id="od_element_lineaire_copier20181108104112570" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
       <layer-setting id="od_element_surfacique_copier20181108104112995" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
       <layer-setting id="vw_wastewater_node20150607121012062" minScale="0" enabled="0" type="2" maxScale="0" tolerance="0" units="2"/>
-      <layer-setting id="od_entree_batiment_copier20181108104111732" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="plans_topobase_qgep_231cc5c0_2d86_4c33_aaa1_031642b02726" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
+      <layer-setting id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" minScale="0" enabled="1" type="2" maxScale="0" tolerance="20" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
@@ -1329,7 +1329,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -1732,7 +1732,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -2121,7 +2121,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -3638,7 +3638,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -3661,7 +3661,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -3894,7 +3894,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -3917,7 +3917,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -4150,7 +4150,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -4173,7 +4173,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -4406,7 +4406,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -4429,7 +4429,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -4662,7 +4662,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -4685,7 +4685,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -4918,7 +4918,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -4941,7 +4941,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -5174,7 +5174,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -5197,7 +5197,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -5430,7 +5430,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -5453,7 +5453,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -5709,7 +5709,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6000,7 +6000,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6291,7 +6291,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6559,7 +6559,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -6591,7 +6591,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -6893,7 +6893,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -6916,7 +6916,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -7172,7 +7172,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -7463,7 +7463,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -7789,7 +7789,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -8080,7 +8080,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -8371,7 +8371,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -8662,7 +8662,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -8953,7 +8953,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -9244,7 +9244,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -9544,7 +9544,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -9597,7 +9597,7 @@ def my_form_open(dialog, layer, feature):
         <relation id="file_object_maintenance_obj_id" name="Vidéo" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_maintenance&quot;" strength="0" layerId="vw_qgep_maintenance" layerName="vw_qgep_maintenance">
           <fieldPair referenced="obj_id" referencing="object"/>
         </relation>
-        <relation id="od_file20160921105557083_object_vw_qgep_wastewater_structure_obj_id" name="Fichiers" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="od_file20160921105557083_object_vw_qgep_wastewater_structure_obj_id" name="Fichiers" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="object"/>
         </relation>
       </referencedLayers>
@@ -9962,7 +9962,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -10027,22 +10027,22 @@ def my_form_open(dialog, layer, feature):
         <relation id="vw_qgep_reach_ws_fk_owner_od_organisation20160212172933583_obj_id" name="Owner Reach" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' srid=2056 type=CompoundCurveZ checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_reach&quot; (progression_geometry)" strength="0" layerId="vw_qgep_reach" layerName="Tronçons">
           <fieldPair referenced="obj_id" referencing="ws_fk_owner"/>
         </relation>
-        <relation id="vw_qgep_wastewater_structure_fk_dataowner_od_organisation20160212172933583_obj_id" name="" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_qgep_wastewater_structure_fk_dataowner_od_organisation20160212172933583_obj_id" name="" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_dataowner"/>
         </relation>
-        <relation id="vw_qgep_wastewater_structure_fk_operator_od_organisation20160212172933583_obj_id" name="Operator Cover" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_qgep_wastewater_structure_fk_operator_od_organisation20160212172933583_obj_id" name="Operator Cover" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_operator"/>
         </relation>
-        <relation id="vw_qgep_wastewater_structure_fk_operator_od_organisation20160212172933583_obj_id_1" name="" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_qgep_wastewater_structure_fk_operator_od_organisation20160212172933583_obj_id_1" name="" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_operator"/>
         </relation>
-        <relation id="vw_qgep_wastewater_structure_fk_owner_od_organisation20160212172933583_obj_id" name="Owner Cover" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_qgep_wastewater_structure_fk_owner_od_organisation20160212172933583_obj_id" name="Owner Cover" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_owner"/>
         </relation>
-        <relation id="vw_qgep_wastewater_structure_fk_owner_od_organisation20160212172933583_obj_id_1" name="" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_qgep_wastewater_structure_fk_owner_od_organisation20160212172933583_obj_id_1" name="" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_owner"/>
         </relation>
-        <relation id="vw_qgep_wastewater_structure_fk_provider_od_organisation20160212172933583_obj_id" name="" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_qgep_wastewater_structure_fk_provider_od_organisation20160212172933583_obj_id" name="" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_provider"/>
         </relation>
       </referencingLayers>
@@ -10323,7 +10323,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -10556,14 +10556,14 @@ def my_form_open(dialog, layer, feature):
         <encoding></encoding>
         <crs>
           <spatialrefsys>
-            <wkt></wkt>
+            <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
             <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
+            <srsid>47</srsid>
+            <srid>2056</srid>
+            <authid>EPSG:2056</authid>
+            <description>CH1903+ / LV95</description>
+            <projectionacronym>somerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
@@ -11300,7 +11300,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -11591,7 +11591,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -11882,7 +11882,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -12105,7 +12105,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -12396,7 +12396,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -12687,7 +12687,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -12978,7 +12978,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -13269,7 +13269,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -13575,7 +13575,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -14107,7 +14107,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -14398,7 +14398,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -15192,7 +15192,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -15483,7 +15483,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -15774,7 +15774,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -16065,7 +16065,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -16366,7 +16366,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -16411,7 +16411,7 @@ def my_form_open(dialog, layer, feature):
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation id="re_maintenance_event_wastewater_structure_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Maintenances events WWS" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="re_maintenance_event_wastewater_structure_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Maintenances events WWS" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_wastewater_structure"/>
         </relation>
         <relation id="re_maintenance_wasterwaterstructure_maintenance" name="Wastewater Structures" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_maintenance&quot;" strength="0" layerId="vw_qgep_maintenance" layerName="vw_qgep_maintenance">
@@ -17103,7 +17103,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -17438,7 +17438,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -18020,7 +18020,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -18311,7 +18311,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -18602,7 +18602,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -18893,7 +18893,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -19184,7 +19184,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -19475,7 +19475,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -19766,7 +19766,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -20057,7 +20057,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -20348,7 +20348,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -20639,7 +20639,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -20964,7 +20964,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -21274,7 +21274,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -21599,7 +21599,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -21890,7 +21890,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -22216,7 +22216,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -22542,7 +22542,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -22868,7 +22868,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -23194,7 +23194,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -23520,7 +23520,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -23846,7 +23846,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -24137,7 +24137,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -24428,7 +24428,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -24719,7 +24719,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -25010,7 +25010,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -25301,7 +25301,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -25592,7 +25592,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -25883,7 +25883,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -26174,7 +26174,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -26465,7 +26465,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -26756,7 +26756,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -27047,7 +27047,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -27338,7 +27338,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -27629,7 +27629,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -27920,7 +27920,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -28211,7 +28211,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -28502,7 +28502,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -28793,7 +28793,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -29084,7 +29084,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -29375,7 +29375,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -29666,7 +29666,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -29957,7 +29957,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -30248,7 +30248,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -30539,7 +30539,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -30830,7 +30830,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -31121,7 +31121,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -31412,7 +31412,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -31703,7 +31703,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -32025,7 +32025,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -32316,7 +32316,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -32607,7 +32607,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -32898,7 +32898,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -33189,7 +33189,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -33480,7 +33480,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -33780,7 +33780,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -33825,7 +33825,7 @@ def my_form_open(dialog, layer, feature):
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation id="vw_access_aid_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Dispositifs d'accès" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_access_aid_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Dispositifs d'accès" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_wastewater_structure"/>
         </relation>
       </referencedLayers>
@@ -34119,7 +34119,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -34164,7 +34164,7 @@ def my_form_open(dialog, layer, feature):
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation id="vw_backflow_prevention_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Clapets" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_backflow_prevention_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Clapets" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_wastewater_structure"/>
         </relation>
       </referencedLayers>
@@ -34536,7 +34536,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -34581,7 +34581,7 @@ def my_form_open(dialog, layer, feature):
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation id="vw_benching_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Banquettes" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_benching_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Banquettes" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_wastewater_structure"/>
         </relation>
       </referencedLayers>
@@ -34875,7 +34875,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -35805,14 +35805,14 @@ def my_form_open(dialog, layer, feature):
         <encoding></encoding>
         <crs>
           <spatialrefsys>
-            <wkt></wkt>
+            <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
             <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
+            <srsid>47</srsid>
+            <srid>2056</srid>
+            <authid>EPSG:2056</authid>
+            <description>CH1903+ / LV95</description>
+            <projectionacronym>somerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
@@ -36008,7 +36008,7 @@ def my_form_open(dialog, layer, feature):
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation id="vw_cover____fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Couvercles" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_cover____fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Couvercles" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_wastewater_structure"/>
         </relation>
       </referencedLayers>
@@ -36506,7 +36506,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -36551,7 +36551,7 @@ def my_form_open(dialog, layer, feature):
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation id="vw_dryweather_downspout_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Tuyaux de chute" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_dryweather_downspout_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Tuyaux de chute" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_wastewater_structure"/>
         </relation>
       </referencedLayers>
@@ -36839,7 +36839,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -36884,7 +36884,7 @@ def my_form_open(dialog, layer, feature):
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation id="vw_dryweather_flume_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Cunettes" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_dryweather_flume_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Cunettes" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_wastewater_structure"/>
         </relation>
       </referencedLayers>
@@ -37920,7 +37920,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -38547,14 +38547,14 @@ def my_form_open(dialog, layer, feature):
         <encoding></encoding>
         <crs>
           <spatialrefsys>
-            <wkt></wkt>
+            <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
             <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
+            <srsid>47</srsid>
+            <srid>2056</srid>
+            <authid>EPSG:2056</authid>
+            <description>CH1903+ / LV95</description>
+            <projectionacronym>somerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
@@ -39085,14 +39085,14 @@ def my_form_open(dialog, layer, feature):
         <encoding></encoding>
         <crs>
           <spatialrefsys>
-            <wkt></wkt>
+            <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
             <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
+            <srsid>47</srsid>
+            <srid>2056</srid>
+            <authid>EPSG:2056</authid>
+            <description>CH1903+ / LV95</description>
+            <projectionacronym>somerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
@@ -39670,7 +39670,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -40347,7 +40347,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -41122,7 +41122,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -41803,7 +41803,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -42620,14 +42620,14 @@ def my_form_open(dialog, layer, feature):
         <encoding></encoding>
         <crs>
           <spatialrefsys>
-            <wkt></wkt>
+            <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
             <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
+            <srsid>47</srsid>
+            <srid>2056</srid>
+            <authid>EPSG:2056</authid>
+            <description>CH1903+ / LV95</description>
+            <projectionacronym>somerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
@@ -46437,7 +46437,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1154589.50045398995280266</ymax>
       </extent>
       <id>vw_qgep_wastewater_structure</id>
-      <datasource>service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table="qgep_od"."vw_qgep_wastewater_structure" (situation_geometry) sql="ws_type" = 'manhole'</datasource>
+      <datasource>service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table="qgep_od"."vw_qgep_wastewater_structure" (situation_geometry) sql="ws_type" IN('manhole','special_structure')</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -46476,19 +46476,19 @@ def my_form_open(dialog, layer, feature):
         <encoding></encoding>
         <crs>
           <spatialrefsys>
-            <wkt></wkt>
+            <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
             <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
+            <srsid>47</srsid>
+            <srid>2056</srid>
+            <authid>EPSG:2056</authid>
+            <description>CH1903+ / LV95</description>
+            <projectionacronym>somerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="" maxz="0" minz="0" minx="0" maxx="0" miny="0" dimensions="2" maxy="0"/>
+          <spatial crs="EPSG:2056" maxz="0" minz="0" minx="0" maxx="0" miny="0" dimensions="2" maxy="0"/>
           <temporal>
             <period>
               <start></start>
@@ -50288,8 +50288,8 @@ def my_form_open(dialog, layer, feature):
         </effect>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{43c6dc3c-ef03-4a4a-970a-79a81273fe5d}">
-          <rule filter=" &quot;fk_owner&quot; = 'ch15z36dOG000025'" key="{56aaa3d5-044e-4ab5-9c15-ceabf6342307}" description="SIGE">
+        <rules key="{243abded-1e18-4097-b657-9ce8f96cdd90}">
+          <rule filter=" &quot;fk_owner&quot; = 'ch15z36dOG000025'" key="{69c17c8d-cc3b-41f1-be48-a5b4671b3472}" description="SIGE">
             <settings calloutType="simple">
               <text-style fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" useSubstitutions="0" fontWeight="50" isExpression="1" fontItalic="0" textOrientation="horizontal" multilineHeight="1" fieldName="CASE&#xd;&#xa;&#x9;WHEN @map_scale &lt; 1001 THEN &quot;_label&quot; || COALESCE('\n' || 'Prof.=' || &quot;_depth&quot; || 'm','')&#xd;&#xa;&#x9;ELSE &quot;identifier&quot;&#xd;&#xa;END" fontKerning="1" fontUnderline="0" fontCapitals="0" fontWordSpacing="0" textColor="214,28,0,255" namedStyle="Normal" allowHtml="0" fontSizeUnit="Point" blendMode="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" textOpacity="1" fontStrikeout="0" previewBkgrdColor="255,255,255,255" fontSize="7">
                 <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferSize="1" bufferJoinStyle="128" bufferBlendMode="0" bufferDraw="1" bufferOpacity="1" bufferNoFill="0" bufferColor="255,255,255,255"/>
@@ -50381,7 +50381,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter=" &quot;fk_owner&quot; != 'ch15z36dOG000025'" key="{34443a14-faa5-4178-9fe4-2a3bde5ccca3}" description="Communal ou privé">
+          <rule filter=" &quot;fk_owner&quot; != 'ch15z36dOG000025'" key="{2c6711cb-8a92-4ef0-9c61-76c4dacc6454}" description="Communal ou privé">
             <settings calloutType="simple">
               <text-style fontFamily="MS Shell Dlg 2" fontLetterSpacing="0" useSubstitutions="0" fontWeight="50" isExpression="1" fontItalic="0" textOrientation="horizontal" multilineHeight="1" fieldName="CASE&#xd;&#xa;&#x9;WHEN @map_scale &lt;= 500 THEN &quot;_label&quot; || COALESCE('\n' || 'Prof.=' || &quot;_depth&quot; || 'm','')&#xd;&#xa;&#x9;ELSE &quot;identifier&quot;&#xd;&#xa;END" fontKerning="1" fontUnderline="0" fontCapitals="0" fontWordSpacing="0" textColor="214,28,0,255" namedStyle="Normal" allowHtml="0" fontSizeUnit="Point" blendMode="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" textOpacity="1" fontStrikeout="0" previewBkgrdColor="255,255,255,255" fontSize="7">
                 <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferSize="1" bufferJoinStyle="128" bufferBlendMode="0" bufferDraw="1" bufferOpacity="1" bufferNoFill="0" bufferColor="255,255,255,255"/>
@@ -52328,12 +52328,12 @@ def my_form_open(dialog, layer, feature):
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
-        <actionsetting name="Digitize Drainage Channel" id="{44938aee-3f5a-411f-9cb0-5c39e295c2c7}" isEnabledOnlyWhenEditable="0" action="from qgepplugin.gui import forms&#xa;&#xa;import qgepplugin&#xa;&#xa;feature = next( QgsProject.instance().mapLayer('od_wastewater_structure').getFeatures( QgsFeatureRequest().setFilterExpression( 'obj_id = \'{}\''.format( '[% &quot;obj_id&quot; %]' ) ) ) )&#xa;qgepplugin.gui.forms.digitizeDrainageChannel(feature.id(), 'od_wastewater_structure')" type="1" capture="0" notificationMessage="" shortTitle="" icon="">
+        <actionsetting name="Digitize Drainage Channel" id="{b81fce98-45cf-44be-addd-01ee8a92960a}" isEnabledOnlyWhenEditable="0" action="from qgepplugin.gui import forms&#xa;&#xa;import qgepplugin&#xa;&#xa;feature = next( QgsProject.instance().mapLayer('od_wastewater_structure').getFeatures( QgsFeatureRequest().setFilterExpression( 'obj_id = \'{}\''.format( '[% &quot;obj_id&quot; %]' ) ) ) )&#xa;qgepplugin.gui.forms.digitizeDrainageChannel(feature.id(), 'od_wastewater_structure')" type="1" capture="0" notificationMessage="" shortTitle="" icon="">
           <actionScope id="Feature"/>
           <actionScope id="Field"/>
           <actionScope id="Canvas"/>
         </actionsetting>
-        <actionsetting name="Digitize" id="{3f44e601-eeb5-4f6f-8507-34dd74753317}" isEnabledOnlyWhenEditable="0" action="ws_lyr = QgsProject.instance().mapLayer('od_wastewater_structure')&#xa;feature = next( ws_lyr.getFeatures( QgsFeatureRequest().setFilterExpression( 'obj_id = \'{}\''.format( '[% &quot;obj_id&quot; %]' ) ) ) )&#xa;ws_lyr.startEditing()&#xa;ws_lyr.selectByIds([feature.id()])&#xa;qgis.utils.iface.setActiveLayer(ws_lyr)&#xa;qgis.utils.iface.actionAddPart().trigger()" type="1" capture="0" notificationMessage="" shortTitle="" icon="">
+        <actionsetting name="Digitize" id="{de7abb11-7f1f-49d8-9b8f-8f6f701bc20e}" isEnabledOnlyWhenEditable="0" action="ws_lyr = QgsProject.instance().mapLayer('od_wastewater_structure')&#xa;feature = next( ws_lyr.getFeatures( QgsFeatureRequest().setFilterExpression( 'obj_id = \'{}\''.format( '[% &quot;obj_id&quot; %]' ) ) ) )&#xa;ws_lyr.startEditing()&#xa;ws_lyr.selectByIds([feature.id()])&#xa;qgis.utils.iface.setActiveLayer(ws_lyr)&#xa;qgis.utils.iface.actionAddPart().trigger()" type="1" capture="0" notificationMessage="" shortTitle="" icon="">
           <actionScope id="Feature"/>
           <actionScope id="Field"/>
           <actionScope id="Canvas"/>
@@ -52837,14 +52837,14 @@ Column {
         <encoding></encoding>
         <crs>
           <spatialrefsys>
-            <wkt></wkt>
+            <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
             <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
+            <srsid>47</srsid>
+            <srid>2056</srid>
+            <authid>EPSG:2056</authid>
+            <description>CH1903+ / LV95</description>
+            <projectionacronym>somerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
@@ -53079,7 +53079,7 @@ Column {
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation id="vw_wastewater_node20150607121012062_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Noeuds hydrauliques" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; = 'manhole'" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
+        <relation id="vw_wastewater_node20150607121012062_fk_wastewater_structure_vw_qgep_wastewater_structure_obj_id" name="Noeuds hydrauliques" providerKey="postgres" dataSource="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure')" strength="0" layerId="vw_qgep_wastewater_structure" layerName="Chambres">
           <fieldPair referenced="obj_id" referencing="fk_wastewater_structure"/>
         </relation>
       </referencedLayers>
