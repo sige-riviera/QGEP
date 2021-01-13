@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="André Kevin" saveUser="andrek" projectname="" version="3.14.1-Pi" saveDateTime="2021-01-13T17:03:56">
+<qgis saveUserFull="André Kevin" saveUser="andrek" projectname="" version="3.14.1-Pi" saveDateTime="2021-01-13T17:43:37">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -64,7 +64,7 @@
             <property key="expandedLegendNodes"/>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer source="service='pg_qgep' key='obj_id' srid=2056 type=CompoundCurveZ checkPrimaryKeyUnicity='1' table=&quot;qgep_sige&quot;.&quot;vw_edit_collecting_pipe&quot; (progression_geometry)" name="Assignation géométrique des lots d'inspections" legend_exp="" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" providerKey="postgres" legend_split_behavior="0" expanded="0" patch_size="-1,-1" checked="Qt::Unchecked">
+        <layer-tree-layer source="service='pg_qgep' key='obj_id' srid=2056 type=CompoundCurveZ checkPrimaryKeyUnicity='1' table=&quot;qgep_sige&quot;.&quot;vw_edit_collecting_pipe&quot; (progression_geometry)" name="Assignation géométrique des lots d'inspections" legend_exp="" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" providerKey="postgres" legend_split_behavior="0" expanded="1" patch_size="-1,-1" checked="Qt::Unchecked">
           <customproperties>
             <property key="expandedLegendNodes"/>
           </customproperties>
@@ -755,10 +755,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>2553419.38122345460578799</xmin>
-      <ymin>1142049.8223533786367625</ymin>
-      <xmax>2561488.11456501809880137</xmax>
-      <ymax>1148489.03951520402915776</ymax>
+      <xmin>2552821.81976450840011239</xmin>
+      <ymin>1141964.22964495373889804</ymin>
+      <xmax>2560890.55310608306899667</xmax>
+      <ymax>1148403.44680678797885776</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -821,8 +821,8 @@
             <legendlayerfile isInOverview="0" layerid="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="15" name="Assignation géométrique des lots d'inspections" open="false" showFeatureCount="0" checked="Qt::Unchecked">
-          <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="15" name="Assignation géométrique des lots d'inspections" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+          <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" visible="0"/>
           </filegroup>
         </legendlayer>
@@ -2509,11 +2509,10 @@ def my_form_open(dialog, layer, feature):
       <referencingLayers/>
       <fieldConfiguration>
         <field name="code">
-          <editWidget type="TextEdit">
+          <editWidget type="UniqueValues">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" value="false" type="bool"/>
-                <Option name="UseHtml" value="false" type="bool"/>
+                <Option name="Editable" value="true" type="bool"/>
               </Option>
             </config>
           </editWidget>
@@ -2706,7 +2705,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="code" expression="" applyOnUpdate="0"/>
+        <default field="code" expression="maximum(&quot;code&quot;) + 1" applyOnUpdate="0"/>
         <default field="situation" expression="" applyOnUpdate="0"/>
         <default field="main_pipe_code" expression="" applyOnUpdate="0"/>
         <default field="name" expression="" applyOnUpdate="0"/>
@@ -2765,10 +2764,10 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortExpression="&quot;code&quot;" actionWidgetStyle="dropDown" sortOrder="0">
         <columns>
           <column name="code" hidden="0" type="field" width="-1"/>
-          <column name="situation" hidden="0" type="field" width="-1"/>
+          <column name="situation" hidden="0" type="field" width="313"/>
           <column name="main_pipe_code" hidden="0" type="field" width="-1"/>
           <column name="name" hidden="1" type="field" width="-1"/>
           <column name="jetting_interval" hidden="0" type="field" width="-1"/>
@@ -2959,11 +2958,10 @@ def my_form_open(dialog, layer, feature):
       <referencingLayers/>
       <fieldConfiguration>
         <field name="code">
-          <editWidget type="TextEdit">
+          <editWidget type="UniqueValues">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" value="false" type="bool"/>
-                <Option name="UseHtml" value="false" type="bool"/>
+                <Option name="Editable" value="true" type="bool"/>
               </Option>
             </config>
           </editWidget>
@@ -2979,11 +2977,22 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="main_pipe_code">
-          <editWidget type="TextEdit">
+          <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" value="false" type="bool"/>
-                <Option name="UseHtml" value="false" type="bool"/>
+                <Option name="AllowMulti" value="false" type="bool"/>
+                <Option name="AllowNull" value="false" type="bool"/>
+                <Option name="Description" value="" type="QString"/>
+                <Option name="FilterExpression" value="" type="QString"/>
+                <Option name="Key" value="code" type="QString"/>
+                <Option name="Layer" value="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" type="QString"/>
+                <Option name="LayerName" value="Saisie des données des collecteurs" type="QString"/>
+                <Option name="LayerProviderName" value="postgres" type="QString"/>
+                <Option name="LayerSource" value="service='pg_qgep' key='code' checkPrimaryKeyUnicity='0' table=&quot;qgep_sige&quot;.&quot;collecting_pipe&quot;" type="QString"/>
+                <Option name="NofColumns" value="1" type="int"/>
+                <Option name="OrderByValue" value="false" type="bool"/>
+                <Option name="UseCompleter" value="false" type="bool"/>
+                <Option name="Value" value="name" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -3093,7 +3102,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="code" expression="" applyOnUpdate="0"/>
+        <default field="code" expression="maximum(&quot;code&quot;) + 1" applyOnUpdate="0"/>
         <default field="situation" expression="" applyOnUpdate="0"/>
         <default field="main_pipe_code" expression="" applyOnUpdate="0"/>
         <default field="name" expression="" applyOnUpdate="0"/>
@@ -3140,7 +3149,7 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortExpression="&quot;code&quot;" actionWidgetStyle="dropDown" sortOrder="0">
         <columns>
           <column name="code" hidden="0" type="field" width="-1"/>
           <column name="situation" hidden="0" type="field" width="-1"/>
@@ -3154,7 +3163,7 @@ def my_form_open(dialog, layer, feature):
           <column name="network_name" hidden="0" type="field" width="-1"/>
           <column name="remark" hidden="0" type="field" width="-1"/>
           <column hidden="1" type="actions" width="-1"/>
-          <column name="situation_with_manholes" hidden="0" type="field" width="-1"/>
+          <column name="situation_with_manholes" hidden="0" type="field" width="297"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -37278,7 +37287,7 @@ def my_form_open(dialog, layer, feature):
         <default field="collecting_pipe_length" expression="" applyOnUpdate="0"/>
         <default field="avg_slope" expression="" applyOnUpdate="0"/>
         <default field="collecting_pipe_name" expression="" applyOnUpdate="0"/>
-        <default field="batch_cleaning_code" expression="" applyOnUpdate="0"/>
+        <default field="batch_cleaning_code" expression="maximum(&quot;code&quot;) + 1" applyOnUpdate="0"/>
         <default field="batch_cleaning_situation" expression="" applyOnUpdate="0"/>
         <default field="batch_cleaning_main_pipe_code" expression="" applyOnUpdate="0"/>
         <default field="batch_cleaning_name" expression="" applyOnUpdate="0"/>
@@ -38370,7 +38379,9 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property value="COALESCE( &quot;batch_inspection_name&quot;, '&lt;NULL>' )" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions">
+          <value>COALESCE( "batch_inspection_name", '&lt;NULL>' )</value>
+        </property>
         <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -38607,7 +38618,7 @@ def my_form_open(dialog, layer, feature):
         <default field="number_of_reaches" expression="" applyOnUpdate="0"/>
         <default field="collecting_pipe_length" expression="" applyOnUpdate="0"/>
         <default field="collecting_pipe_name" expression="" applyOnUpdate="0"/>
-        <default field="batch_inspection_code" expression="" applyOnUpdate="0"/>
+        <default field="batch_inspection_code" expression="maximum(&quot;code&quot;) + 1" applyOnUpdate="0"/>
         <default field="batch_inspection_situation" expression="" applyOnUpdate="0"/>
         <default field="batch_inspection_main_pipe_code" expression="" applyOnUpdate="0"/>
         <default field="batch_inspection_name" expression="" applyOnUpdate="0"/>
