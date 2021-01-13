@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="André Kevin" saveUser="andrek" projectname="" version="3.14.1-Pi" saveDateTime="2021-01-13T15:56:34">
+<qgis saveUserFull="André Kevin" saveUser="andrek" projectname="" version="3.14.1-Pi" saveDateTime="2021-01-13T17:03:56">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -755,10 +755,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>2553454.11064305063337088</xmin>
-      <ymin>1141951.96973138581961393</ymin>
-      <xmax>2561522.84398461412638426</xmax>
-      <ymax>1148391.18689321773126721</ymax>
+      <xmin>2553419.38122345460578799</xmin>
+      <ymin>1142049.8223533786367625</ymin>
+      <xmax>2561488.11456501809880137</xmax>
+      <ymax>1148489.03951520402915776</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -2475,7 +2475,9 @@ def my_form_open(dialog, layer, feature):
       <layerDependencies/>
       <dataDependencies/>
       <legend type="default-vector"/>
-      <expressionfields/>
+      <expressionfields>
+        <field name="situation_with_manholes" comment="" precision="0" type="10" typeName="text" subType="0" expression="coalesce(&quot;situation&quot;,'NULL') || ' ch. ' || coalesce(&quot;max_chamber_name&quot;,'NULL') || '-' || coalesce(&quot;min_chamber_name&quot;,'NULL') || ' (' || coalesce(&quot;code&quot;,NULL) || ')'" length="-1"/>
+      </expressionfields>
       <map-layer-style-manager current="défaut">
         <map-layer-style name="défaut"/>
       </map-layer-style-manager>
@@ -2675,6 +2677,13 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="situation_with_manholes">
+          <editWidget type="Hidden">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="Code" field="code" index="0"/>
@@ -2692,6 +2701,7 @@ def my_form_open(dialog, layer, feature):
         <alias name="Matériau" field="material_information" index="12"/>
         <alias name="Ordre de passage" field="execution_order" index="13"/>
         <alias name="Entreprise de curage" field="company" index="14"/>
+        <alias name="Lot de curage" field="situation_with_manholes" index="15"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2711,6 +2721,7 @@ def my_form_open(dialog, layer, feature):
         <default field="material_information" expression="" applyOnUpdate="0"/>
         <default field="execution_order" expression="" applyOnUpdate="0"/>
         <default field="company" expression="" applyOnUpdate="0"/>
+        <default field="situation_with_manholes" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint field="code" constraints="3" unique_strength="1" notnull_strength="1" exp_strength="0"/>
@@ -2728,6 +2739,7 @@ def my_form_open(dialog, layer, feature):
         <constraint field="material_information" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="execution_order" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="company" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="situation_with_manholes" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="code" exp=""/>
@@ -2745,8 +2757,11 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="material_information" exp=""/>
         <constraint desc="" field="execution_order" exp=""/>
         <constraint desc="" field="company" exp=""/>
+        <constraint desc="" field="situation_with_manholes" exp=""/>
       </constraintExpressions>
-      <expressionfields/>
+      <expressionfields>
+        <field name="situation_with_manholes" comment="" precision="0" type="10" typeName="text" subType="0" expression="coalesce(&quot;situation&quot;,'NULL') || ' ch. ' || coalesce(&quot;max_chamber_name&quot;,'NULL') || '-' || coalesce(&quot;min_chamber_name&quot;,'NULL') || ' (' || coalesce(&quot;code&quot;,NULL) || ')'" length="-1"/>
+      </expressionfields>
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
@@ -2755,7 +2770,7 @@ def my_form_open(dialog, layer, feature):
           <column name="code" hidden="0" type="field" width="-1"/>
           <column name="situation" hidden="0" type="field" width="-1"/>
           <column name="main_pipe_code" hidden="0" type="field" width="-1"/>
-          <column name="name" hidden="0" type="field" width="-1"/>
+          <column name="name" hidden="1" type="field" width="-1"/>
           <column name="jetting_interval" hidden="0" type="field" width="-1"/>
           <column name="last_cleaning_date" hidden="0" type="field" width="-1"/>
           <column name="min_chamber_name" hidden="0" type="field" width="-1"/>
@@ -2768,6 +2783,7 @@ def my_form_open(dialog, layer, feature):
           <column name="execution_order" hidden="0" type="field" width="-1"/>
           <column name="company" hidden="0" type="field" width="-1"/>
           <column hidden="1" type="actions" width="-1"/>
+          <column name="situation_with_manholes" hidden="0" type="field" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -2814,6 +2830,8 @@ def my_form_open(dialog, layer, feature):
         <field name="network_name" editable="1"/>
         <field name="remark" editable="1"/>
         <field name="situation" editable="1"/>
+        <field name="situation_with_manhole_range" editable="0"/>
+        <field name="situation_with_manholes" editable="0"/>
       </editable>
       <labelOnTop>
         <field name="area" labelOnTop="0"/>
@@ -2832,6 +2850,8 @@ def my_form_open(dialog, layer, feature):
         <field name="network_name" labelOnTop="0"/>
         <field name="remark" labelOnTop="0"/>
         <field name="situation" labelOnTop="0"/>
+        <field name="situation_with_manhole_range" labelOnTop="0"/>
+        <field name="situation_with_manholes" labelOnTop="0"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
       <widgets/>
@@ -2905,7 +2925,9 @@ def my_form_open(dialog, layer, feature):
       <layerDependencies/>
       <dataDependencies/>
       <legend type="default-vector"/>
-      <expressionfields/>
+      <expressionfields>
+        <field name="situation_with_manholes" comment="" precision="0" type="10" typeName="string" subType="0" expression="coalesce(&quot;situation&quot;,'NULL') || ' ch. ' || coalesce(&quot;max_chamber_name&quot;,'NULL') || '-' || coalesce(&quot;min_chamber_name&quot;,'NULL') || ' (' || coalesce(&quot;code&quot;,NULL) || ')'" length="0"/>
+      </expressionfields>
       <map-layer-style-manager current="défaut">
         <map-layer-style name="défaut"/>
       </map-layer-style-manager>
@@ -3046,6 +3068,13 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="situation_with_manholes">
+          <editWidget type="Hidden">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="Code" field="code" index="0"/>
@@ -3059,6 +3088,7 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="area" index="8"/>
         <alias name="Secteur" field="network_name" index="9"/>
         <alias name="Remarques" field="remark" index="10"/>
+        <alias name="Lot d'inspection" field="situation_with_manholes" index="11"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -3074,6 +3104,7 @@ def my_form_open(dialog, layer, feature):
         <default field="area" expression="" applyOnUpdate="0"/>
         <default field="network_name" expression="" applyOnUpdate="0"/>
         <default field="remark" expression="" applyOnUpdate="0"/>
+        <default field="situation_with_manholes" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint field="code" constraints="3" unique_strength="1" notnull_strength="1" exp_strength="0"/>
@@ -3087,6 +3118,7 @@ def my_form_open(dialog, layer, feature):
         <constraint field="area" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="network_name" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
         <constraint field="remark" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="situation_with_manholes" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="code" exp=""/>
@@ -3100,8 +3132,11 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="area" exp=""/>
         <constraint desc="" field="network_name" exp=""/>
         <constraint desc="" field="remark" exp=""/>
+        <constraint desc="" field="situation_with_manholes" exp=""/>
       </constraintExpressions>
-      <expressionfields/>
+      <expressionfields>
+        <field name="situation_with_manholes" comment="" precision="0" type="10" typeName="string" subType="0" expression="coalesce(&quot;situation&quot;,'NULL') || ' ch. ' || coalesce(&quot;max_chamber_name&quot;,'NULL') || '-' || coalesce(&quot;min_chamber_name&quot;,'NULL') || ' (' || coalesce(&quot;code&quot;,NULL) || ')'" length="0"/>
+      </expressionfields>
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
@@ -3119,6 +3154,7 @@ def my_form_open(dialog, layer, feature):
           <column name="network_name" hidden="0" type="field" width="-1"/>
           <column name="remark" hidden="0" type="field" width="-1"/>
           <column hidden="1" type="actions" width="-1"/>
+          <column name="situation_with_manholes" hidden="0" type="field" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -3161,6 +3197,7 @@ def my_form_open(dialog, layer, feature):
         <field name="network_name" editable="1"/>
         <field name="remark" editable="1"/>
         <field name="situation" editable="1"/>
+        <field name="situation_with_manholes" editable="0"/>
       </editable>
       <labelOnTop>
         <field name="area" labelOnTop="0"/>
@@ -3175,6 +3212,7 @@ def my_form_open(dialog, layer, feature):
         <field name="network_name" labelOnTop="0"/>
         <field name="remark" labelOnTop="0"/>
         <field name="situation" labelOnTop="0"/>
+        <field name="situation_with_manholes" labelOnTop="0"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
       <widgets/>
@@ -44367,7 +44405,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByValue" value="false" type="bool"/>
                 <Option name="UseCompleter" value="false" type="bool"/>
-                <Option name="Value" value="situation" type="QString"/>
+                <Option name="Value" value="situation_with_manholes" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -45101,7 +45139,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByValue" value="false" type="bool"/>
                 <Option name="UseCompleter" value="false" type="bool"/>
-                <Option name="Value" value="situation" type="QString"/>
+                <Option name="Value" value="situation_with_manholes" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -61337,114 +61375,114 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="e. Lots d'inspections" has-expanded-info="1" has-checked-group-info="1">
-      <layer style="default" id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357"/>
-      <layer style="défaut" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
-      <layer style="défaut" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
-      <layer style="défaut" id="cs_couverture_sol_copier20181108104113163" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="cs_couverture_sol_copier20181108104113163"/>
-      <layer style="défaut" id="bf_point_limite_copier20181108104111885" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="bf_point_limite_copier20181108104111885"/>
-      <layer style="default" id="vw_backflow_prevention" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_backflow_prevention"/>
-      <layer style="défaut" id="SMR10_LV95_SIGE_NN_resampled20181107111112733" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="SMR10_LV95_SIGE_NN_resampled20181107111112733"/>
-      <layer style="default" id="od_wastewater_structure" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="od_wastewater_structure"/>
-      <layer style="default" id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
-      <layer style="default" id="vw_prank_weir20180603141619323" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
-      <layer style="default" id="vw_pump20180603141532062" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="vw_pump20180603141532062"/>
-      <layer style="défaut" id="no_nomenclature_copier20181108104111532" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="no_nomenclature_copier20181108104111532"/>
-      <layer style="défaut" id="od_element_lineaire_copier20181108104112570" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="od_element_lineaire_copier20181108104112570"/>
-      <layer style="défaut" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" visible="1" expanded="0"/>
-      <expanded-legend-nodes id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7"/>
-      <layer style="default" id="overflow_char20180603140933293" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
-      <layer style="default" id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
-      <layer style="default" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
-      <layer style="défaut" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
-      <layer style="default" id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f"/>
-      <layer style="défaut" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8"/>
-      <layer style="default" id="vw_benching" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_benching"/>
-      <layer style="default" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
-      <layer style="défaut" id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc"/>
-      <layer style="default" id="vw_wastewater_node20150607121012062" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="vw_wastewater_node20150607121012062"/>
-      <layer style="défaut" id="pf_points_fixes_copier20181108104112082" visible="0" expanded="0"/>
-      <checked-legend-nodes id="pf_points_fixes_copier20181108104112082">
-        <checked-legend-node id="{b27de174-17c8-4b0a-91af-b09db30e86fa}"/>
-        <checked-legend-node id="{40049126-2ac8-4e85-8955-370df4899f13}"/>
-        <checked-legend-node id="{3585b604-8355-4f87-a5f1-46fa79609e12}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="pf_points_fixes_copier20181108104112082"/>
-      <layer style="défaut" id="ab_rue_copier20181108104112287" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
-      <layer style="default" id="vw_access_aid" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_access_aid"/>
-      <layer style="default" id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
-      <layer style="défaut" id="od_element_surfacique_copier20181108104112995" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="od_element_surfacique_copier20181108104112995"/>
-      <layer style="défaut" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70"/>
-      <layer style="default" id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245"/>
-      <layer style="default" id="vw_dryweather_downspout" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_dryweather_downspout"/>
       <layer style="default" id="vw_qgep_wastewater_structure" visible="1" expanded="0"/>
       <expanded-legend-nodes id="vw_qgep_wastewater_structure">
         <expanded-legend-node id="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </expanded-legend-nodes>
+      <layer style="défaut" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" visible="1" expanded="0"/>
+      <expanded-legend-nodes id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7"/>
+      <layer style="défaut" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
+      <layer style="défaut" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8"/>
+      <layer style="défaut" id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc"/>
+      <layer style="default" id="vw_access_aid" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_access_aid"/>
       <layer style="default" id="vw_dryweather_flume" visible="1" expanded="1"/>
       <expanded-legend-nodes id="vw_dryweather_flume"/>
-      <layer style="default" id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88"/>
-      <layer style="default" id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef"/>
-      <layer style="default" id="vw_channel_" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_channel_"/>
-      <layer style="défaut" id="lc_limites_commune_copier20181108104112378" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="lc_limites_commune_copier20181108104112378"/>
-      <layer style="default" id="throttle_shut_off_unit20180603140933091" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="throttle_shut_off_unit20180603140933091"/>
-      <layer style="défaut" id="od_entree_batiment_copier20181108104111732" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="od_entree_batiment_copier20181108104111732"/>
-      <layer style="défaut" id="SWISSIMAGE_Hintergrund_df5442b1_bf05_41f4_bbbd_ce44024c15d7" visible="1" expanded="0"/>
-      <expanded-legend-nodes id="SWISSIMAGE_Hintergrund_df5442b1_bf05_41f4_bbbd_ce44024c15d7"/>
-      <layer style="défaut" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
-      <layer style="default" id="vw_leapingweir20180603141619261" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
-      <layer style="défaut" id="SMR10_LV95_SIGE_M_resampled20181107111357915" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="SMR10_LV95_SIGE_M_resampled20181107111357915"/>
-      <layer style="défaut" id="bf_immeuble_copier20181108104112829" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
+      <layer style="default" id="vw_benching" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_benching"/>
+      <layer style="default" id="vw_backflow_prevention" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_backflow_prevention"/>
+      <layer style="default" id="vw_dryweather_downspout" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_dryweather_downspout"/>
       <layer style="default" id="od_organisation20160212172933583" visible="1" expanded="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
-      <layer style="default" id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
+      <layer style="default" id="od_wastewater_structure" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="od_wastewater_structure"/>
+      <layer style="default" id="vw_channel_" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_channel_"/>
+      <layer style="default" id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357"/>
+      <layer style="default" id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef"/>
       <layer style="default" id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be" visible="0" expanded="1"/>
       <expanded-legend-nodes id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be"/>
+      <layer style="default" id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88"/>
+      <layer style="default" id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
+      <layer style="default" id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
+      <layer style="default" id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
+      <layer style="default" id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
+      <layer style="default" id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245"/>
+      <layer style="default" id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f"/>
+      <layer style="default" id="vw_wastewater_node20150607121012062" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="vw_wastewater_node20150607121012062"/>
+      <layer style="default" id="vw_leapingweir20180603141619261" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
+      <layer style="default" id="vw_prank_weir20180603141619323" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer style="default" id="vw_pump20180603141532062" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="vw_pump20180603141532062"/>
+      <layer style="default" id="throttle_shut_off_unit20180603140933091" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="throttle_shut_off_unit20180603140933091"/>
+      <layer style="default" id="overflow_char20180603140933293" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
+      <layer style="défaut" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70"/>
+      <layer style="default" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
+      <layer style="default" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
+      <layer style="défaut" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
+      <layer style="défaut" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
+      <layer style="défaut" id="SWISSIMAGE_Hintergrund_df5442b1_bf05_41f4_bbbd_ce44024c15d7" visible="1" expanded="0"/>
+      <expanded-legend-nodes id="SWISSIMAGE_Hintergrund_df5442b1_bf05_41f4_bbbd_ce44024c15d7"/>
+      <layer style="défaut" id="no_nomenclature_copier20181108104111532" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="no_nomenclature_copier20181108104111532"/>
+      <layer style="défaut" id="od_entree_batiment_copier20181108104111732" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="od_entree_batiment_copier20181108104111732"/>
+      <layer style="défaut" id="bf_point_limite_copier20181108104111885" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="bf_point_limite_copier20181108104111885"/>
+      <layer style="défaut" id="pf_points_fixes_copier20181108104112082" visible="0" expanded="0"/>
+      <checked-legend-nodes id="pf_points_fixes_copier20181108104112082">
+        <checked-legend-node id="{b27de174-17c8-4b0a-91af-b09db30e86fa}"/>
+        <checked-legend-node id="{3585b604-8355-4f87-a5f1-46fa79609e12}"/>
+        <checked-legend-node id="{40049126-2ac8-4e85-8955-370df4899f13}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="pf_points_fixes_copier20181108104112082"/>
+      <layer style="défaut" id="ab_rue_copier20181108104112287" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
+      <layer style="défaut" id="lc_limites_commune_copier20181108104112378" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="lc_limites_commune_copier20181108104112378"/>
+      <layer style="défaut" id="bf_immeuble_copier20181108104112829" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
+      <layer style="défaut" id="od_element_lineaire_copier20181108104112570" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="od_element_lineaire_copier20181108104112570"/>
+      <layer style="défaut" id="od_element_surfacique_copier20181108104112995" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="od_element_surfacique_copier20181108104112995"/>
+      <layer style="défaut" id="cs_couverture_sol_copier20181108104113163" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="cs_couverture_sol_copier20181108104113163"/>
+      <layer style="défaut" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
+      <layer style="défaut" id="SMR10_LV95_SIGE_M_resampled20181107111357915" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="SMR10_LV95_SIGE_M_resampled20181107111357915"/>
+      <layer style="défaut" id="SMR10_LV95_SIGE_NN_resampled20181107111112733" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="SMR10_LV95_SIGE_NN_resampled20181107111112733"/>
       <checked-group-nodes>
         <checked-group-node id="Edition des tableaux"/>
         <checked-group-node id="Options avancées/Ouvrages"/>
-        <checked-group-node id="Fonds de plans/Cadastre"/>
         <checked-group-node id="Equipements d'ouvrages"/>
+        <checked-group-node id="Fonds de plans/Cadastre"/>
         <checked-group-node id="Réseau"/>
         <checked-group-node id="Options avancées"/>
       </checked-group-nodes>
@@ -61805,115 +61843,115 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="i. Editer le lot d'inspection d'un tronçon" has-expanded-info="1" has-checked-group-info="1">
-      <layer style="default" id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357"/>
-      <layer style="défaut" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
-      <layer style="défaut" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
-      <layer style="défaut" id="cs_couverture_sol_copier20181108104113163" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="cs_couverture_sol_copier20181108104113163"/>
-      <layer style="défaut" id="bf_point_limite_copier20181108104111885" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="bf_point_limite_copier20181108104111885"/>
-      <layer style="default" id="vw_backflow_prevention" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_backflow_prevention"/>
-      <layer style="défaut" id="SMR10_LV95_SIGE_NN_resampled20181107111112733" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="SMR10_LV95_SIGE_NN_resampled20181107111112733"/>
-      <layer style="default" id="od_wastewater_structure" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="od_wastewater_structure"/>
-      <layer style="default" id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
-      <layer style="default" id="vw_prank_weir20180603141619323" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
-      <layer style="default" id="vw_pump20180603141532062" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="vw_pump20180603141532062"/>
-      <layer style="défaut" id="no_nomenclature_copier20181108104111532" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="no_nomenclature_copier20181108104111532"/>
-      <layer style="défaut" id="od_element_lineaire_copier20181108104112570" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="od_element_lineaire_copier20181108104112570"/>
-      <layer style="default" id="overflow_char20180603140933293" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
-      <layer style="default" id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
-      <layer style="default" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
-      <layer style="défaut" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
-      <layer style="default" id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f"/>
-      <layer style="défaut" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8"/>
-      <layer style="default" id="vw_benching" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_benching"/>
-      <layer style="default" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
-      <layer style="défaut" id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc"/>
-      <layer style="default" id="vw_wastewater_node20150607121012062" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="vw_wastewater_node20150607121012062"/>
-      <layer style="défaut" id="pf_points_fixes_copier20181108104112082" visible="0" expanded="0"/>
-      <checked-legend-nodes id="pf_points_fixes_copier20181108104112082">
-        <checked-legend-node id="{b27de174-17c8-4b0a-91af-b09db30e86fa}"/>
-        <checked-legend-node id="{40049126-2ac8-4e85-8955-370df4899f13}"/>
-        <checked-legend-node id="{3585b604-8355-4f87-a5f1-46fa79609e12}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="pf_points_fixes_copier20181108104112082"/>
-      <layer style="défaut" id="ab_rue_copier20181108104112287" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
-      <layer style="défaut" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" visible="1" expanded="0"/>
-      <expanded-legend-nodes id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d"/>
-      <layer style="default" id="vw_access_aid" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_access_aid"/>
-      <layer style="default" id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
-      <layer style="défaut" id="od_element_surfacique_copier20181108104112995" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="od_element_surfacique_copier20181108104112995"/>
-      <layer style="défaut" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70"/>
-      <layer style="default" id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245"/>
-      <layer style="default" id="vw_dryweather_downspout" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_dryweather_downspout"/>
       <layer style="default" id="vw_qgep_wastewater_structure" visible="1" expanded="0"/>
       <expanded-legend-nodes id="vw_qgep_wastewater_structure">
         <expanded-legend-node id="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </expanded-legend-nodes>
+      <layer style="défaut" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" visible="1" expanded="0"/>
+      <expanded-legend-nodes id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d"/>
+      <layer style="défaut" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
+      <layer style="défaut" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8"/>
+      <layer style="défaut" id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc"/>
+      <layer style="default" id="vw_access_aid" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_access_aid"/>
       <layer style="default" id="vw_dryweather_flume" visible="1" expanded="1"/>
       <expanded-legend-nodes id="vw_dryweather_flume"/>
-      <layer style="default" id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88"/>
-      <layer style="default" id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef"/>
-      <layer style="default" id="vw_channel_" visible="1" expanded="1"/>
-      <expanded-legend-nodes id="vw_channel_"/>
-      <layer style="défaut" id="lc_limites_commune_copier20181108104112378" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="lc_limites_commune_copier20181108104112378"/>
-      <layer style="default" id="throttle_shut_off_unit20180603140933091" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="throttle_shut_off_unit20180603140933091"/>
-      <layer style="défaut" id="od_entree_batiment_copier20181108104111732" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="od_entree_batiment_copier20181108104111732"/>
-      <layer style="défaut" id="SWISSIMAGE_Hintergrund_df5442b1_bf05_41f4_bbbd_ce44024c15d7" visible="1" expanded="0"/>
-      <expanded-legend-nodes id="SWISSIMAGE_Hintergrund_df5442b1_bf05_41f4_bbbd_ce44024c15d7"/>
-      <layer style="défaut" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
-      <layer style="default" id="vw_leapingweir20180603141619261" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
-      <layer style="défaut" id="SMR10_LV95_SIGE_M_resampled20181107111357915" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="SMR10_LV95_SIGE_M_resampled20181107111357915"/>
-      <layer style="défaut" id="bf_immeuble_copier20181108104112829" visible="0" expanded="0"/>
-      <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
+      <layer style="default" id="vw_benching" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_benching"/>
+      <layer style="default" id="vw_backflow_prevention" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_backflow_prevention"/>
+      <layer style="default" id="vw_dryweather_downspout" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_dryweather_downspout"/>
       <layer style="default" id="od_organisation20160212172933583" visible="1" expanded="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
-      <layer style="default" id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" visible="0" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
+      <layer style="default" id="od_wastewater_structure" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="od_wastewater_structure"/>
+      <layer style="default" id="vw_channel_" visible="1" expanded="1"/>
+      <expanded-legend-nodes id="vw_channel_"/>
+      <layer style="default" id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357"/>
+      <layer style="default" id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef"/>
       <layer style="default" id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be" visible="0" expanded="1"/>
       <expanded-legend-nodes id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be"/>
+      <layer style="default" id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88"/>
+      <layer style="default" id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
+      <layer style="default" id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
+      <layer style="default" id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
+      <layer style="default" id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
+      <layer style="default" id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245"/>
+      <layer style="default" id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f"/>
+      <layer style="default" id="vw_wastewater_node20150607121012062" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="vw_wastewater_node20150607121012062"/>
+      <layer style="default" id="vw_leapingweir20180603141619261" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
+      <layer style="default" id="vw_prank_weir20180603141619323" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer style="default" id="vw_pump20180603141532062" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="vw_pump20180603141532062"/>
+      <layer style="default" id="throttle_shut_off_unit20180603140933091" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="throttle_shut_off_unit20180603140933091"/>
+      <layer style="default" id="overflow_char20180603140933293" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
+      <layer style="défaut" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70"/>
+      <layer style="default" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
+      <layer style="default" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
+      <layer style="défaut" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
+      <layer style="défaut" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
+      <layer style="défaut" id="SWISSIMAGE_Hintergrund_df5442b1_bf05_41f4_bbbd_ce44024c15d7" visible="1" expanded="0"/>
+      <expanded-legend-nodes id="SWISSIMAGE_Hintergrund_df5442b1_bf05_41f4_bbbd_ce44024c15d7"/>
+      <layer style="défaut" id="no_nomenclature_copier20181108104111532" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="no_nomenclature_copier20181108104111532"/>
+      <layer style="défaut" id="od_entree_batiment_copier20181108104111732" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="od_entree_batiment_copier20181108104111732"/>
+      <layer style="défaut" id="bf_point_limite_copier20181108104111885" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="bf_point_limite_copier20181108104111885"/>
+      <layer style="défaut" id="pf_points_fixes_copier20181108104112082" visible="0" expanded="0"/>
+      <checked-legend-nodes id="pf_points_fixes_copier20181108104112082">
+        <checked-legend-node id="{b27de174-17c8-4b0a-91af-b09db30e86fa}"/>
+        <checked-legend-node id="{3585b604-8355-4f87-a5f1-46fa79609e12}"/>
+        <checked-legend-node id="{40049126-2ac8-4e85-8955-370df4899f13}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="pf_points_fixes_copier20181108104112082"/>
+      <layer style="défaut" id="ab_rue_copier20181108104112287" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
+      <layer style="défaut" id="lc_limites_commune_copier20181108104112378" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="lc_limites_commune_copier20181108104112378"/>
+      <layer style="défaut" id="bf_immeuble_copier20181108104112829" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
+      <layer style="défaut" id="od_element_lineaire_copier20181108104112570" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="od_element_lineaire_copier20181108104112570"/>
+      <layer style="défaut" id="od_element_surfacique_copier20181108104112995" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="od_element_surfacique_copier20181108104112995"/>
+      <layer style="défaut" id="cs_couverture_sol_copier20181108104113163" visible="0" expanded="0"/>
+      <expanded-legend-nodes id="cs_couverture_sol_copier20181108104113163"/>
+      <layer style="défaut" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
+      <layer style="défaut" id="SMR10_LV95_SIGE_M_resampled20181107111357915" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="SMR10_LV95_SIGE_M_resampled20181107111357915"/>
+      <layer style="défaut" id="SMR10_LV95_SIGE_NN_resampled20181107111112733" visible="0" expanded="1"/>
+      <expanded-legend-nodes id="SMR10_LV95_SIGE_NN_resampled20181107111112733"/>
       <checked-group-nodes>
         <checked-group-node id="Edition des tableaux"/>
         <checked-group-node id="Réseau/Edition géométrique des lots"/>
         <checked-group-node id="Options avancées/Ouvrages"/>
-        <checked-group-node id="Fonds de plans/Cadastre"/>
         <checked-group-node id="Equipements d'ouvrages"/>
+        <checked-group-node id="Fonds de plans/Cadastre"/>
         <checked-group-node id="Réseau"/>
         <checked-group-node id="Options avancées"/>
       </checked-group-nodes>
