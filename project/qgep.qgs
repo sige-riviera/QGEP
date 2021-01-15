@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="André Kevin" projectname="" version="3.14.1-Pi" saveUser="andrek" saveDateTime="2021-01-15T11:34:40">
+<qgis saveUserFull="André Kevin" projectname="" version="3.14.1-Pi" saveUser="andrek" saveDateTime="2021-01-15T11:51:42">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -640,39 +640,39 @@
   </layer-tree-group>
   <snapping-settings mode="3" intersection-snapping="0" maxScale="0" tolerance="0" scaleDependencyMode="0" minScale="0" enabled="0" unit="2" self-snapping="0" type="3">
     <individual-layer-settings>
-      <layer-setting maxScale="0" tolerance="12" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" minScale="0" enabled="0" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="0" id="vw_cover___" minScale="0" enabled="0" units="2" type="2"/>
-      <layer-setting maxScale="0" tolerance="0" id="vw_network_segment20150607120529381" minScale="0" enabled="0" units="2" type="2"/>
-      <layer-setting maxScale="0" tolerance="5" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="10" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="10" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="0" id="vw_network_node20150607120529398" minScale="0" enabled="0" units="2" type="2"/>
       <layer-setting maxScale="0" tolerance="0" id="vw_wastewater_node20150607121012062" minScale="0" enabled="0" units="2" type="2"/>
-      <layer-setting maxScale="0" tolerance="20" id="od_element_lineaire_copier20181108104112570" minScale="0" enabled="1" units="1" type="2"/>
       <layer-setting maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="0" id="vw_cover___" minScale="0" enabled="0" units="2" type="2"/>
       <layer-setting maxScale="0" tolerance="10" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="20" id="lc_limites_commune_copier20181108104112378" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="10" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="20" id="od_entree_batiment_copier20181108104111732" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="0" id="vw_qgep_wastewater_structure" minScale="0" enabled="0" units="2" type="2"/>
-      <layer-setting maxScale="0" tolerance="10" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="5" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="0" id="vw_qgep_reach" minScale="0" enabled="0" units="2" type="2"/>
-      <layer-setting maxScale="0" tolerance="20" id="bf_immeuble_copier20181108104112829" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="10" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" minScale="0" enabled="1" units="1" type="1"/>
-      <layer-setting maxScale="0" tolerance="20" id="pf_points_fixes_copier20181108104112082" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="0" id="od_wastewater_structure" minScale="0" enabled="0" units="2" type="2"/>
-      <layer-setting maxScale="0" tolerance="20" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="20" id="no_nomenclature_copier20181108104111532" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="20" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="20" id="od_element_surfacique_copier20181108104112995" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="20" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="20" id="ab_rue_copier20181108104112287" minScale="0" enabled="1" units="1" type="2"/>
       <layer-setting maxScale="0" tolerance="20" id="cs_couverture_sol_copier20181108104113163" minScale="0" enabled="1" units="1" type="2"/>
-      <layer-setting maxScale="0" tolerance="10" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="5" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="0" id="vw_network_segment20150607120529381" minScale="0" enabled="0" units="2" type="2"/>
       <layer-setting maxScale="0" tolerance="20" id="bf_point_limite_copier20181108104111885" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="10" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="0" id="vw_qgep_reach" minScale="0" enabled="0" units="2" type="2"/>
+      <layer-setting maxScale="0" tolerance="0" id="vw_network_node20150607120529398" minScale="0" enabled="0" units="2" type="2"/>
+      <layer-setting maxScale="0" tolerance="20" id="ab_rue_copier20181108104112287" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="10" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="20" id="od_entree_batiment_copier20181108104111732" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="10" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="20" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="0" id="vw_qgep_wastewater_structure" minScale="0" enabled="0" units="2" type="2"/>
+      <layer-setting maxScale="0" tolerance="10" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="0" id="od_wastewater_structure" minScale="0" enabled="0" units="2" type="2"/>
+      <layer-setting maxScale="0" tolerance="20" id="bf_immeuble_copier20181108104112829" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="5" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="20" id="od_element_lineaire_copier20181108104112570" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="20" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="20" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="12" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" minScale="0" enabled="0" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="10" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="20" id="lc_limites_commune_copier20181108104112378" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="20" id="no_nomenclature_copier20181108104111532" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="10" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" minScale="0" enabled="1" units="1" type="1"/>
+      <layer-setting maxScale="0" tolerance="20" id="od_element_surfacique_copier20181108104112995" minScale="0" enabled="1" units="1" type="2"/>
+      <layer-setting maxScale="0" tolerance="20" id="pf_points_fixes_copier20181108104112082" minScale="0" enabled="1" units="1" type="2"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
@@ -2353,7 +2353,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -2415,7 +2415,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -2447,7 +2447,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -2862,7 +2862,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -2894,7 +2894,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -3254,7 +3254,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -4771,7 +4771,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -4794,7 +4794,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -5027,7 +5027,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -5050,7 +5050,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -5283,7 +5283,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -5306,7 +5306,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -5539,7 +5539,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -5562,7 +5562,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -5795,7 +5795,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -5818,7 +5818,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6051,7 +6051,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -6074,7 +6074,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6307,7 +6307,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -6330,7 +6330,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6563,7 +6563,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -6586,7 +6586,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6819,7 +6819,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -6851,7 +6851,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -7134,7 +7134,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -7707,7 +7707,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -7797,7 +7797,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -7881,7 +7881,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -8172,7 +8172,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -8440,7 +8440,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -8472,7 +8472,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -8774,7 +8774,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -8797,7 +8797,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -9053,7 +9053,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -9344,7 +9344,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -9670,7 +9670,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -9961,7 +9961,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -10252,7 +10252,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -10543,7 +10543,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -10834,7 +10834,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -11125,7 +11125,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -11425,7 +11425,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -11863,7 +11863,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -12224,7 +12224,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -13201,7 +13201,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -13492,7 +13492,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -13783,7 +13783,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -14006,7 +14006,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -14297,7 +14297,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -14588,7 +14588,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -14879,7 +14879,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -15170,7 +15170,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -15461,7 +15461,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -15752,7 +15752,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -16546,7 +16546,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -16837,7 +16837,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -17128,7 +17128,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -17419,7 +17419,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -17720,7 +17720,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -18461,7 +18461,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -18796,7 +18796,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -19378,7 +19378,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -19669,7 +19669,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -19960,7 +19960,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -20251,7 +20251,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -20542,7 +20542,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -20833,7 +20833,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -21124,7 +21124,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -21415,7 +21415,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -21706,7 +21706,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -21997,7 +21997,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -22322,7 +22322,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -22632,7 +22632,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -22957,7 +22957,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -23248,7 +23248,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -23574,7 +23574,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -23900,7 +23900,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -24226,7 +24226,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -24552,7 +24552,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -24878,7 +24878,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -25204,7 +25204,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -25495,7 +25495,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -25786,7 +25786,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -26077,7 +26077,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -26368,7 +26368,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -26659,7 +26659,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -26950,7 +26950,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -27241,7 +27241,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -27532,7 +27532,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -27823,7 +27823,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -28114,7 +28114,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -28405,7 +28405,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -28696,7 +28696,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -28987,7 +28987,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -29278,7 +29278,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -29569,7 +29569,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -29860,7 +29860,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -30151,7 +30151,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -30451,7 +30451,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -30832,7 +30832,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -31123,7 +31123,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -31414,7 +31414,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -31705,7 +31705,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -31996,7 +31996,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -32287,7 +32287,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -32578,7 +32578,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -32869,7 +32869,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -33160,7 +33160,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -33482,7 +33482,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -33773,7 +33773,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -34064,7 +34064,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -34355,7 +34355,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -34646,7 +34646,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -34937,7 +34937,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -35256,7 +35256,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -35595,7 +35595,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -38886,7 +38886,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -39225,7 +39225,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -43386,7 +43386,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -43719,7 +43719,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -47035,7 +47035,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -48785,7 +48785,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -49462,7 +49462,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -50552,7 +50552,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -51234,7 +51234,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -52153,7 +52153,7 @@ def my_form_open(dialog, layer, feature):
           <symbol force_rhr="0" name="1" clip_to_extent="1" type="line" alpha="1">
             <layer class="SimpleLine" pass="0" locked="0" enabled="1">
               <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
+              <prop k="customdash" v=""/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
@@ -52166,12 +52166,18 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
+              <prop k="use_custom_dash" v="1"/>
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option value="" name="name" type="QString"/>
-                  <Option name="properties"/>
+                  <Option name="properties" type="Map">
+                    <Option name="customDash" type="Map">
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="CASE &#xd;&#xa;WHEN &quot;ch_function_hydraulic&quot; = 23 THEN '1;2'&#xd;&#xa;ELSE '10;0'&#xd;&#xa;END" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
+                    </Option>
+                  </Option>
                   <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
@@ -52299,7 +52305,7 @@ def my_form_open(dialog, layer, feature):
           <symbol force_rhr="0" name="4" clip_to_extent="1" type="line" alpha="1">
             <layer class="SimpleLine" pass="0" locked="0" enabled="1">
               <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
+              <prop k="customdash" v=""/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
@@ -52312,12 +52318,18 @@ def my_form_open(dialog, layer, feature):
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
+              <prop k="use_custom_dash" v="1"/>
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option value="" name="name" type="QString"/>
-                  <Option name="properties"/>
+                  <Option name="properties" type="Map">
+                    <Option name="customDash" type="Map">
+                      <Option value="true" name="active" type="bool"/>
+                      <Option value="CASE &#xd;&#xa;WHEN &quot;ch_function_hydraulic&quot; = 23 THEN '1;2'&#xd;&#xa;ELSE '10;0'&#xd;&#xa;END" name="expression" type="QString"/>
+                      <Option value="3" name="type" type="int"/>
+                    </Option>
+                  </Option>
                   <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
@@ -52421,8 +52433,8 @@ def my_form_open(dialog, layer, feature):
         </effect>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{f235a114-3620-4a9d-b014-617b2ba3cf3d}">
-          <rule key="{95125b7c-81ae-4c59-a8f0-a744c2c74f88}" filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516" description="SIGE">
+        <rules key="{7d6d4964-ee51-487b-bc81-c11238059ae1}">
+          <rule key="{7757db79-5e5a-42e6-9515-a1118c176dc0}" filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516" description="SIGE">
             <settings calloutType="simple">
               <text-style fontUnderline="0" fontLetterSpacing="0" fontCapitals="0" allowHtml="0" textOrientation="horizontal" fontSizeMapUnitScale="3x:0,0,0,0,0,0" multilineHeight="1" fontFamily="Calibri" fontSize="8" namedStyle="Regular" textOpacity="1" fontStrikeout="0" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;length_effective&quot; || 'm ',''),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;_slope_per_mill&quot; || '‰ ',''),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;ws_year_of_construction&quot;,'')&#xd;&#xa;)" useSubstitutions="0" fontWeight="50" fontKerning="1" blendMode="0" isExpression="1" fontSizeUnit="Point" fontItalic="0" fontWordSpacing="0" previewBkgrdColor="255,255,255,255" textColor="214,28,0,255">
                 <text-buffer bufferNoFill="0" bufferSize="1" bufferJoinStyle="128" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferDraw="1" bufferColor="255,255,255,255" bufferOpacity="1"/>
@@ -52519,7 +52531,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule key="{97b1e1f3-d8b4-4aaf-85e7-b3007ed1ab4f}" filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516" description="Communal ou privé">
+          <rule key="{bbf7de6e-ac29-421b-a01f-1740ec44cae4}" filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516" description="Communal ou privé">
             <settings calloutType="simple">
               <text-style fontUnderline="0" fontLetterSpacing="0" fontCapitals="0" allowHtml="0" textOrientation="horizontal" fontSizeMapUnitScale="3x:0,0,0,0,0,0" multilineHeight="1" fontFamily="Calibri" fontSize="8" namedStyle="Regular" textOpacity="1" fontStrikeout="0" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', '')&#xa;)" useSubstitutions="0" fontWeight="50" fontKerning="1" blendMode="0" isExpression="1" fontSizeUnit="Point" fontItalic="0" fontWordSpacing="0" previewBkgrdColor="255,255,255,255" textColor="255,158,41,255">
                 <text-buffer bufferNoFill="0" bufferSize="1" bufferJoinStyle="128" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferDraw="1" bufferColor="255,255,255,255" bufferOpacity="1"/>
@@ -52616,7 +52628,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule key="{cab182b3-1896-486f-9bc5-c335524a0f61}" filter="&quot;ch_usage_current&quot; = 4516" description="Exutoir (Eaux Mixtes Déversées)">
+          <rule key="{5a032cd5-62ef-47f9-8c5a-549d4e2fc4c7}" filter="&quot;ch_usage_current&quot; = 4516" description="Exutoir (Eaux Mixtes Déversées)">
             <settings calloutType="simple">
               <text-style fontUnderline="0" fontLetterSpacing="0" fontCapitals="0" allowHtml="0" textOrientation="horizontal" fontSizeMapUnitScale="3x:0,0,0,0,0,0" multilineHeight="1" fontFamily="Calibri" fontSize="8" namedStyle="Regular" textOpacity="1" fontStrikeout="0" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', '')&#xa;)" useSubstitutions="0" fontWeight="50" fontKerning="1" blendMode="0" isExpression="1" fontSizeUnit="Point" fontItalic="0" fontWordSpacing="0" previewBkgrdColor="255,255,255,255" textColor="50,220,50,255">
                 <text-buffer bufferNoFill="0" bufferSize="1" bufferJoinStyle="128" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferDraw="1" bufferColor="255,255,255,255" bufferOpacity="1"/>
@@ -61099,82 +61111,66 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset has-expanded-info="1" has-checked-group-info="1" name="b. Tronçons et chambres (cadastre)">
+      <layer visible="0" style="default" id="vw_pump20180603141532062" expanded="1"/>
+      <expanded-legend-nodes id="vw_pump20180603141532062"/>
+      <layer visible="0" style="default" id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357"/>
+      <layer visible="1" style="défaut" id="ab_rue_copier20181108104112287" expanded="1"/>
+      <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
+      <layer visible="0" style="défaut" id="SMR10_LV95_SIGE_M_resampled20181107111357915" expanded="1"/>
+      <expanded-legend-nodes id="SMR10_LV95_SIGE_M_resampled20181107111357915"/>
+      <layer visible="0" style="défaut" id="SMR10_LV95_SIGE_NN_resampled20181107111112733" expanded="1"/>
+      <expanded-legend-nodes id="SMR10_LV95_SIGE_NN_resampled20181107111112733"/>
+      <layer visible="0" style="default" id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be"/>
+      <layer visible="1" style="défaut" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" expanded="1"/>
+      <expanded-legend-nodes id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8"/>
+      <layer visible="1" style="default" id="vw_dryweather_flume" expanded="1"/>
+      <expanded-legend-nodes id="vw_dryweather_flume"/>
+      <layer visible="1" style="défaut" id="lc_limites_commune_copier20181108104112378" expanded="1"/>
+      <expanded-legend-nodes id="lc_limites_commune_copier20181108104112378"/>
+      <layer visible="0" style="default" id="throttle_shut_off_unit20180603140933091" expanded="1"/>
+      <expanded-legend-nodes id="throttle_shut_off_unit20180603140933091"/>
+      <layer visible="0" style="défaut" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
       <layer visible="1" style="default" id="vw_qgep_wastewater_structure" expanded="0"/>
       <expanded-legend-nodes id="vw_qgep_wastewater_structure">
         <expanded-legend-node id="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </expanded-legend-nodes>
-      <layer visible="1" style="default" id="vw_qgep_reach" expanded="0"/>
-      <expanded-legend-nodes id="vw_qgep_reach"/>
-      <layer visible="1" style="défaut" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" expanded="1"/>
-      <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
-      <layer visible="1" style="défaut" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" expanded="1"/>
-      <expanded-legend-nodes id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8"/>
-      <layer visible="1" style="défaut" id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc" expanded="1"/>
-      <expanded-legend-nodes id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc"/>
-      <layer visible="1" style="default" id="vw_access_aid" expanded="1"/>
-      <expanded-legend-nodes id="vw_access_aid"/>
-      <layer visible="1" style="default" id="vw_dryweather_flume" expanded="1"/>
-      <expanded-legend-nodes id="vw_dryweather_flume"/>
-      <layer visible="1" style="default" id="vw_benching" expanded="1"/>
-      <expanded-legend-nodes id="vw_benching"/>
-      <layer visible="1" style="default" id="vw_backflow_prevention" expanded="1"/>
-      <expanded-legend-nodes id="vw_backflow_prevention"/>
-      <layer visible="1" style="default" id="vw_dryweather_downspout" expanded="1"/>
-      <expanded-legend-nodes id="vw_dryweather_downspout"/>
-      <layer visible="1" style="default" id="od_organisation20160212172933583" expanded="1"/>
-      <expanded-legend-nodes id="od_organisation20160212172933583"/>
-      <layer visible="1" style="default" id="od_wastewater_structure" expanded="1"/>
-      <expanded-legend-nodes id="od_wastewater_structure"/>
-      <layer visible="1" style="default" id="vw_channel_" expanded="1"/>
-      <expanded-legend-nodes id="vw_channel_"/>
-      <layer visible="0" style="default" id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357"/>
-      <layer visible="0" style="default" id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef"/>
-      <layer visible="0" style="default" id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be"/>
-      <layer visible="0" style="default" id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88"/>
-      <layer visible="0" style="default" id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
       <layer visible="0" style="default" id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869" expanded="1"/>
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
-      <layer visible="0" style="default" id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
-      <layer visible="0" style="default" id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
-      <layer visible="0" style="default" id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245" expanded="1"/>
-      <expanded-legend-nodes id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245"/>
-      <layer visible="0" style="default" id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f" expanded="1"/>
-      <expanded-legend-nodes id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f"/>
+      <layer visible="1" style="défaut" id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc" expanded="1"/>
+      <expanded-legend-nodes id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc"/>
+      <layer visible="1" style="default" id="od_organisation20160212172933583" expanded="1"/>
+      <expanded-legend-nodes id="od_organisation20160212172933583"/>
       <layer visible="0" style="default" id="vw_wastewater_node20150607121012062" expanded="1"/>
       <expanded-legend-nodes id="vw_wastewater_node20150607121012062"/>
-      <layer visible="0" style="default" id="vw_leapingweir20180603141619261" expanded="1"/>
-      <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
-      <layer visible="0" style="default" id="vw_prank_weir20180603141619323" expanded="1"/>
-      <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
-      <layer visible="0" style="default" id="vw_pump20180603141532062" expanded="1"/>
-      <expanded-legend-nodes id="vw_pump20180603141532062"/>
-      <layer visible="0" style="default" id="throttle_shut_off_unit20180603140933091" expanded="1"/>
-      <expanded-legend-nodes id="throttle_shut_off_unit20180603140933091"/>
-      <layer visible="0" style="default" id="overflow_char20180603140933293" expanded="1"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
-      <layer visible="0" style="défaut" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" expanded="1"/>
-      <expanded-legend-nodes id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70"/>
-      <layer visible="0" style="default" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" expanded="0"/>
-      <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
-      <layer visible="0" style="default" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" expanded="0"/>
-      <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
-      <layer visible="0" style="défaut" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
-      <layer visible="0" style="défaut" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
+      <layer visible="1" style="default" id="vw_qgep_reach" expanded="0"/>
+      <expanded-legend-nodes id="vw_qgep_reach"/>
       <layer visible="1" style="défaut" id="no_nomenclature_copier20181108104111532" expanded="1"/>
       <expanded-legend-nodes id="no_nomenclature_copier20181108104111532"/>
       <layer visible="1" style="défaut" id="od_entree_batiment_copier20181108104111732" expanded="1"/>
       <expanded-legend-nodes id="od_entree_batiment_copier20181108104111732"/>
-      <layer visible="1" style="défaut" id="bf_point_limite_copier20181108104111885" expanded="0"/>
-      <expanded-legend-nodes id="bf_point_limite_copier20181108104111885"/>
+      <layer visible="0" style="default" id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
+      <layer visible="1" style="défaut" id="od_element_lineaire_copier20181108104112570" expanded="0"/>
+      <expanded-legend-nodes id="od_element_lineaire_copier20181108104112570"/>
+      <layer visible="0" style="défaut" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
+      <layer visible="1" style="default" id="od_wastewater_structure" expanded="1"/>
+      <expanded-legend-nodes id="od_wastewater_structure"/>
+      <layer visible="0" style="défaut" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" expanded="1"/>
+      <expanded-legend-nodes id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70"/>
+      <layer visible="0" style="default" id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef"/>
+      <layer visible="1" style="défaut" id="od_element_surfacique_copier20181108104112995" expanded="0"/>
+      <expanded-legend-nodes id="od_element_surfacique_copier20181108104112995"/>
+      <layer visible="1" style="default" id="vw_channel_" expanded="1"/>
+      <expanded-legend-nodes id="vw_channel_"/>
+      <layer visible="0" style="default" id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f" expanded="1"/>
+      <expanded-legend-nodes id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f"/>
+      <layer visible="0" style="default" id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer visible="1" style="défaut" id="pf_points_fixes_copier20181108104112082" expanded="0"/>
       <checked-legend-nodes id="pf_points_fixes_copier20181108104112082">
         <checked-legend-node id="{40049126-2ac8-4e85-8955-370df4899f13}"/>
@@ -61182,24 +61178,40 @@ def my_form_open(dialog, layer, feature):
         <checked-legend-node id="{b27de174-17c8-4b0a-91af-b09db30e86fa}"/>
       </checked-legend-nodes>
       <expanded-legend-nodes id="pf_points_fixes_copier20181108104112082"/>
-      <layer visible="1" style="défaut" id="ab_rue_copier20181108104112287" expanded="1"/>
-      <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
-      <layer visible="1" style="défaut" id="lc_limites_commune_copier20181108104112378" expanded="1"/>
-      <expanded-legend-nodes id="lc_limites_commune_copier20181108104112378"/>
-      <layer visible="1" style="défaut" id="bf_immeuble_copier20181108104112829" expanded="0"/>
-      <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer visible="1" style="défaut" id="od_element_lineaire_copier20181108104112570" expanded="0"/>
-      <expanded-legend-nodes id="od_element_lineaire_copier20181108104112570"/>
-      <layer visible="1" style="défaut" id="od_element_surfacique_copier20181108104112995" expanded="0"/>
-      <expanded-legend-nodes id="od_element_surfacique_copier20181108104112995"/>
-      <layer visible="1" style="défaut" id="cs_couverture_sol_copier20181108104113163" expanded="0"/>
-      <expanded-legend-nodes id="cs_couverture_sol_copier20181108104113163"/>
+      <layer visible="0" style="default" id="vw_leapingweir20180603141619261" expanded="1"/>
+      <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
+      <layer visible="0" style="default" id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245" expanded="1"/>
+      <expanded-legend-nodes id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245"/>
+      <layer visible="1" style="default" id="vw_benching" expanded="1"/>
+      <expanded-legend-nodes id="vw_benching"/>
+      <layer visible="0" style="default" id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
       <layer visible="1" style="défaut" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
-      <layer visible="0" style="défaut" id="SMR10_LV95_SIGE_M_resampled20181107111357915" expanded="1"/>
-      <expanded-legend-nodes id="SMR10_LV95_SIGE_M_resampled20181107111357915"/>
-      <layer visible="0" style="défaut" id="SMR10_LV95_SIGE_NN_resampled20181107111112733" expanded="1"/>
-      <expanded-legend-nodes id="SMR10_LV95_SIGE_NN_resampled20181107111112733"/>
+      <layer visible="0" style="default" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" expanded="0"/>
+      <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
+      <layer visible="0" style="default" id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88"/>
+      <layer visible="1" style="défaut" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" expanded="1"/>
+      <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
+      <layer visible="1" style="défaut" id="bf_immeuble_copier20181108104112829" expanded="0"/>
+      <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
+      <layer visible="1" style="défaut" id="cs_couverture_sol_copier20181108104113163" expanded="0"/>
+      <expanded-legend-nodes id="cs_couverture_sol_copier20181108104113163"/>
+      <layer visible="0" style="default" id="vw_prank_weir20180603141619323" expanded="1"/>
+      <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer visible="0" style="default" id="overflow_char20180603140933293" expanded="1"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
+      <layer visible="0" style="default" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" expanded="0"/>
+      <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
+      <layer visible="1" style="default" id="vw_backflow_prevention" expanded="1"/>
+      <expanded-legend-nodes id="vw_backflow_prevention"/>
+      <layer visible="1" style="default" id="vw_dryweather_downspout" expanded="1"/>
+      <expanded-legend-nodes id="vw_dryweather_downspout"/>
+      <layer visible="1" style="default" id="vw_access_aid" expanded="1"/>
+      <expanded-legend-nodes id="vw_access_aid"/>
+      <layer visible="1" style="défaut" id="bf_point_limite_copier20181108104111885" expanded="0"/>
+      <expanded-legend-nodes id="bf_point_limite_copier20181108104111885"/>
       <checked-group-nodes>
         <checked-group-node id="Options avancées/Ouvrages"/>
         <checked-group-node id="Réseau"/>
@@ -62263,86 +62275,70 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset has-expanded-info="1" has-checked-group-info="1" name="x. Corrections">
+      <layer visible="1" style="default" id="vw_pump20180603141532062" expanded="1"/>
+      <expanded-legend-nodes id="vw_pump20180603141532062"/>
+      <layer visible="1" style="default" id="vw_network_segment20150607120529381" expanded="1"/>
+      <expanded-legend-nodes id="vw_network_segment20150607120529381"/>
+      <layer visible="0" style="default" id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357"/>
+      <layer visible="1" style="défaut" id="ab_rue_copier20181108104112287" expanded="1"/>
+      <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
+      <layer visible="0" style="défaut" id="SMR10_LV95_SIGE_M_resampled20181107111357915" expanded="1"/>
+      <expanded-legend-nodes id="SMR10_LV95_SIGE_M_resampled20181107111357915"/>
+      <layer visible="0" style="défaut" id="SMR10_LV95_SIGE_NN_resampled20181107111112733" expanded="1"/>
+      <expanded-legend-nodes id="SMR10_LV95_SIGE_NN_resampled20181107111112733"/>
+      <layer visible="0" style="default" id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be"/>
+      <layer visible="1" style="défaut" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" expanded="1"/>
+      <expanded-legend-nodes id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8"/>
+      <layer visible="1" style="default" id="vw_dryweather_flume" expanded="1"/>
+      <expanded-legend-nodes id="vw_dryweather_flume"/>
+      <layer visible="1" style="défaut" id="lc_limites_commune_copier20181108104112378" expanded="1"/>
+      <expanded-legend-nodes id="lc_limites_commune_copier20181108104112378"/>
+      <layer visible="1" style="défaut" id="eu_collecteurs_grp_870b8bd2_ef5b_43c3_8b1e_440028ac8d30" expanded="0"/>
+      <expanded-legend-nodes id="eu_collecteurs_grp_870b8bd2_ef5b_43c3_8b1e_440028ac8d30"/>
+      <layer visible="1" style="défaut" id="eu_chambres_grp_e13a11a6_bcf8_42b8_8a09_a3ccbe311027" expanded="0"/>
+      <expanded-legend-nodes id="eu_chambres_grp_e13a11a6_bcf8_42b8_8a09_a3ccbe311027"/>
+      <layer visible="1" style="default" id="throttle_shut_off_unit20180603140933091" expanded="1"/>
+      <expanded-legend-nodes id="throttle_shut_off_unit20180603140933091"/>
+      <layer visible="1" style="défaut" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
       <layer visible="1" style="default" id="vw_qgep_wastewater_structure" expanded="0"/>
       <expanded-legend-nodes id="vw_qgep_wastewater_structure">
         <expanded-legend-node id="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </expanded-legend-nodes>
-      <layer visible="1" style="default" id="vw_qgep_reach" expanded="0"/>
-      <expanded-legend-nodes id="vw_qgep_reach"/>
-      <layer visible="1" style="défaut" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" expanded="1"/>
-      <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
-      <layer visible="1" style="défaut" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" expanded="1"/>
-      <expanded-legend-nodes id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8"/>
-      <layer visible="1" style="défaut" id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc" expanded="1"/>
-      <expanded-legend-nodes id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc"/>
-      <layer visible="1" style="default" id="vw_access_aid" expanded="1"/>
-      <expanded-legend-nodes id="vw_access_aid"/>
-      <layer visible="1" style="default" id="vw_dryweather_flume" expanded="1"/>
-      <expanded-legend-nodes id="vw_dryweather_flume"/>
-      <layer visible="1" style="default" id="vw_benching" expanded="1"/>
-      <expanded-legend-nodes id="vw_benching"/>
-      <layer visible="1" style="default" id="vw_backflow_prevention" expanded="1"/>
-      <expanded-legend-nodes id="vw_backflow_prevention"/>
-      <layer visible="1" style="default" id="vw_dryweather_downspout" expanded="1"/>
-      <expanded-legend-nodes id="vw_dryweather_downspout"/>
-      <layer visible="1" style="default" id="od_organisation20160212172933583" expanded="1"/>
-      <expanded-legend-nodes id="od_organisation20160212172933583"/>
-      <layer visible="1" style="default" id="od_wastewater_structure" expanded="1"/>
-      <expanded-legend-nodes id="od_wastewater_structure"/>
-      <layer visible="1" style="default" id="vw_channel_" expanded="1"/>
-      <expanded-legend-nodes id="vw_channel_"/>
-      <layer visible="0" style="default" id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_current_10b00c14_1e7a_481f_bccf_fddb84081357"/>
-      <layer visible="0" style="default" id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef"/>
-      <layer visible="0" style="default" id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_retention_current_1776e14f_a345_4d7c_8ef0_4c2e3a9484be"/>
-      <layer visible="0" style="default" id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88"/>
-      <layer visible="0" style="default" id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
       <layer visible="0" style="default" id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869" expanded="1"/>
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
-      <layer visible="0" style="default" id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
-      <layer visible="0" style="default" id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
-      <layer visible="0" style="default" id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245" expanded="1"/>
-      <expanded-legend-nodes id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245"/>
-      <layer visible="0" style="default" id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f" expanded="1"/>
-      <expanded-legend-nodes id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f"/>
+      <layer visible="1" style="défaut" id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc" expanded="1"/>
+      <expanded-legend-nodes id="batch_inspection_0148d711_129c_4de2_ad72_7340f7ceddfc"/>
+      <layer visible="1" style="default" id="od_organisation20160212172933583" expanded="1"/>
+      <expanded-legend-nodes id="od_organisation20160212172933583"/>
       <layer visible="1" style="default" id="vw_wastewater_node20150607121012062" expanded="1"/>
       <expanded-legend-nodes id="vw_wastewater_node20150607121012062"/>
-      <layer visible="1" style="default" id="vw_leapingweir20180603141619261" expanded="1"/>
-      <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
-      <layer visible="1" style="default" id="vw_prank_weir20180603141619323" expanded="1"/>
-      <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
-      <layer visible="1" style="default" id="vw_pump20180603141532062" expanded="1"/>
-      <expanded-legend-nodes id="vw_pump20180603141532062"/>
-      <layer visible="1" style="default" id="throttle_shut_off_unit20180603140933091" expanded="1"/>
-      <expanded-legend-nodes id="throttle_shut_off_unit20180603140933091"/>
-      <layer visible="1" style="default" id="overflow_char20180603140933293" expanded="1"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
-      <layer visible="1" style="default" id="vw_network_segment20150607120529381" expanded="1"/>
-      <expanded-legend-nodes id="vw_network_segment20150607120529381"/>
-      <layer visible="0" style="default" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" expanded="0"/>
-      <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
-      <layer visible="0" style="default" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" expanded="0"/>
-      <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
-      <layer visible="1" style="défaut" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
-      <layer visible="1" style="défaut" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
-      <layer visible="1" style="défaut" id="eu_chambres_grp_e13a11a6_bcf8_42b8_8a09_a3ccbe311027" expanded="0"/>
-      <expanded-legend-nodes id="eu_chambres_grp_e13a11a6_bcf8_42b8_8a09_a3ccbe311027"/>
-      <layer visible="1" style="défaut" id="eu_collecteurs_grp_870b8bd2_ef5b_43c3_8b1e_440028ac8d30" expanded="0"/>
-      <expanded-legend-nodes id="eu_collecteurs_grp_870b8bd2_ef5b_43c3_8b1e_440028ac8d30"/>
+      <layer visible="1" style="default" id="vw_qgep_reach" expanded="0"/>
+      <expanded-legend-nodes id="vw_qgep_reach"/>
       <layer visible="1" style="défaut" id="no_nomenclature_copier20181108104111532" expanded="1"/>
       <expanded-legend-nodes id="no_nomenclature_copier20181108104111532"/>
+      <layer visible="0" style="default" id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
       <layer visible="1" style="défaut" id="od_entree_batiment_copier20181108104111732" expanded="1"/>
       <expanded-legend-nodes id="od_entree_batiment_copier20181108104111732"/>
-      <layer visible="1" style="défaut" id="bf_point_limite_copier20181108104111885" expanded="0"/>
-      <expanded-legend-nodes id="bf_point_limite_copier20181108104111885"/>
+      <layer visible="1" style="défaut" id="od_element_lineaire_copier20181108104112570" expanded="0"/>
+      <expanded-legend-nodes id="od_element_lineaire_copier20181108104112570"/>
+      <layer visible="1" style="défaut" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
+      <layer visible="1" style="default" id="od_wastewater_structure" expanded="1"/>
+      <expanded-legend-nodes id="od_wastewater_structure"/>
+      <layer visible="0" style="default" id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_retention_planned_00e3f869_0d64_44dd_a0d3_2fa0f948b5ef"/>
+      <layer visible="1" style="défaut" id="od_element_surfacique_copier20181108104112995" expanded="0"/>
+      <expanded-legend-nodes id="od_element_surfacique_copier20181108104112995"/>
+      <layer visible="1" style="default" id="vw_channel_" expanded="1"/>
+      <expanded-legend-nodes id="vw_channel_"/>
+      <layer visible="0" style="default" id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f" expanded="1"/>
+      <expanded-legend-nodes id="individual_surface_pavement_04e2adeb_be0d_4c8d_bbaa_7afb0590bf1f"/>
+      <layer visible="0" style="default" id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer visible="1" style="défaut" id="pf_points_fixes_copier20181108104112082" expanded="0"/>
       <checked-legend-nodes id="pf_points_fixes_copier20181108104112082">
         <checked-legend-node id="{40049126-2ac8-4e85-8955-370df4899f13}"/>
@@ -62350,24 +62346,40 @@ def my_form_open(dialog, layer, feature):
         <checked-legend-node id="{b27de174-17c8-4b0a-91af-b09db30e86fa}"/>
       </checked-legend-nodes>
       <expanded-legend-nodes id="pf_points_fixes_copier20181108104112082"/>
-      <layer visible="1" style="défaut" id="ab_rue_copier20181108104112287" expanded="1"/>
-      <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
-      <layer visible="1" style="défaut" id="lc_limites_commune_copier20181108104112378" expanded="1"/>
-      <expanded-legend-nodes id="lc_limites_commune_copier20181108104112378"/>
-      <layer visible="1" style="défaut" id="bf_immeuble_copier20181108104112829" expanded="0"/>
-      <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer visible="1" style="défaut" id="od_element_lineaire_copier20181108104112570" expanded="0"/>
-      <expanded-legend-nodes id="od_element_lineaire_copier20181108104112570"/>
-      <layer visible="1" style="défaut" id="od_element_surfacique_copier20181108104112995" expanded="0"/>
-      <expanded-legend-nodes id="od_element_surfacique_copier20181108104112995"/>
-      <layer visible="1" style="défaut" id="cs_couverture_sol_copier20181108104113163" expanded="0"/>
-      <expanded-legend-nodes id="cs_couverture_sol_copier20181108104113163"/>
+      <layer visible="1" style="default" id="vw_leapingweir20180603141619261" expanded="1"/>
+      <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
+      <layer visible="0" style="default" id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245" expanded="1"/>
+      <expanded-legend-nodes id="individual_surface_function_9cd78720_b27b_4d0a_adcb_d0b53d2d8245"/>
+      <layer visible="1" style="default" id="vw_benching" expanded="1"/>
+      <expanded-legend-nodes id="vw_benching"/>
+      <layer visible="0" style="default" id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
       <layer visible="1" style="défaut" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
-      <layer visible="0" style="défaut" id="SMR10_LV95_SIGE_M_resampled20181107111357915" expanded="1"/>
-      <expanded-legend-nodes id="SMR10_LV95_SIGE_M_resampled20181107111357915"/>
-      <layer visible="0" style="défaut" id="SMR10_LV95_SIGE_NN_resampled20181107111112733" expanded="1"/>
-      <expanded-legend-nodes id="SMR10_LV95_SIGE_NN_resampled20181107111112733"/>
+      <layer visible="0" style="default" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" expanded="0"/>
+      <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
+      <layer visible="0" style="default" id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_infiltration_planned_cd228d0d_5775_42fe_b024_44b73602ce88"/>
+      <layer visible="1" style="défaut" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" expanded="1"/>
+      <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
+      <layer visible="1" style="défaut" id="bf_immeuble_copier20181108104112829" expanded="0"/>
+      <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
+      <layer visible="1" style="défaut" id="cs_couverture_sol_copier20181108104113163" expanded="0"/>
+      <expanded-legend-nodes id="cs_couverture_sol_copier20181108104113163"/>
+      <layer visible="1" style="default" id="vw_prank_weir20180603141619323" expanded="1"/>
+      <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer visible="1" style="default" id="overflow_char20180603140933293" expanded="1"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
+      <layer visible="0" style="default" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" expanded="0"/>
+      <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
+      <layer visible="1" style="default" id="vw_backflow_prevention" expanded="1"/>
+      <expanded-legend-nodes id="vw_backflow_prevention"/>
+      <layer visible="1" style="default" id="vw_dryweather_downspout" expanded="1"/>
+      <expanded-legend-nodes id="vw_dryweather_downspout"/>
+      <layer visible="1" style="default" id="vw_access_aid" expanded="1"/>
+      <expanded-legend-nodes id="vw_access_aid"/>
+      <layer visible="1" style="défaut" id="bf_point_limite_copier20181108104111885" expanded="0"/>
+      <expanded-legend-nodes id="bf_point_limite_copier20181108104111885"/>
       <checked-group-nodes>
         <checked-group-node id="Options avancées/Ouvrages"/>
         <checked-group-node id="Options avancées/Hydraulique"/>
