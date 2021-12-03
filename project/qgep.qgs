@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="andrek" saveUserFull="André Kevin" version="3.16.11-Hannover" saveDateTime="2021-12-03T10:32:02" projectname="">
+<qgis saveUser="andrek" saveUserFull="André Kevin" version="3.16.11-Hannover" saveDateTime="2021-12-03T10:57:36" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -646,40 +646,40 @@
   </layer-tree-group>
   <snapping-settings unit="2" enabled="0" intersection-snapping="0" type="3" self-snapping="0" scaleDependencyMode="0" tolerance="0" maxScale="0" mode="3" minScale="0">
     <individual-layer-settings>
-      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="od_wastewater_structure" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="no_nomenclature_copier20181108104111532" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" minScale="0"/>
-      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_wastewater_node20150607121012062" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" minScale="0"/>
-      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_qgep_wastewater_structure" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" minScale="0"/>
       <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_cover___" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" minScale="0"/>
-      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_network_segment20150607120529381" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="od_entree_batiment_copier20181108104111732" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="od_element_surfacique_copier20181108104112995" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" minScale="0"/>
-      <layer-setting enabled="0" type="1" tolerance="12" maxScale="0" units="1" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" minScale="0"/>
-      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_qgep_reach" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="bf_immeuble_copier20181108104112829" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="od_element_lineaire_copier20181108104112570" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="cs_couverture_sol_copier20181108104113163" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="bf_point_limite_copier20181108104111885" minScale="0"/>
-      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="ab_rue_copier20181108104112287" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" minScale="0"/>
       <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="pf_points_fixes_copier20181108104112082" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" minScale="0"/>
+      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_network_node20150607120529398" minScale="0"/>
+      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_wastewater_node20150607121012062" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="15" maxScale="0" units="1" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" minScale="0"/>
+      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="od_wastewater_structure" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" minScale="0"/>
+      <layer-setting enabled="0" type="1" tolerance="12" maxScale="0" units="1" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" minScale="0"/>
+      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_network_segment20150607120529381" minScale="0"/>
       <layer-setting enabled="1" type="1" tolerance="5" maxScale="0" units="1" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" minScale="0"/>
       <layer-setting enabled="1" type="1" tolerance="5" maxScale="0" units="1" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" minScale="0"/>
+      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_qgep_wastewater_structure" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="od_entree_batiment_copier20181108104111732" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="no_nomenclature_copier20181108104111532" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="od_element_surfacique_copier20181108104112995" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="od_element_lineaire_copier20181108104112570" minScale="0"/>
+      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_qgep_reach" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="bf_immeuble_copier20181108104112829" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="cs_couverture_sol_copier20181108104113163" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" minScale="0"/>
+      <layer-setting enabled="1" type="1" tolerance="10" maxScale="0" units="1" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="bf_point_limite_copier20181108104111885" minScale="0"/>
+      <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="ab_rue_copier20181108104112287" minScale="0"/>
       <layer-setting enabled="1" type="2" tolerance="20" maxScale="0" units="1" id="lc_limites_commune_copier20181108104112378" minScale="0"/>
-      <layer-setting enabled="0" type="2" tolerance="0" maxScale="0" units="2" id="vw_network_node20150607120529398" minScale="0"/>
-      <layer-setting enabled="1" type="1" tolerance="15" maxScale="0" units="1" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
@@ -762,10 +762,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2553597.11856142710894346</xmin>
-      <ymin>1142344.15830980078317225</ymin>
-      <xmax>2562300.85190363507717848</xmax>
-      <ymax>1149290.13442981825210154</ymax>
+      <xmin>2553636.96791147068142891</xmin>
+      <ymin>1142563.56414296571165323</ymin>
+      <xmax>2562340.70125367119908333</xmax>
+      <ymax>1149509.54026298318058252</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -54813,14 +54813,14 @@ def my_form_open(dialog, layer, feature):
               <prop v="bevel" k="joinstyle"/>
               <prop v="214,28,0,255" k="line_color"/>
               <prop v="dot" k="line_style"/>
-              <prop v="0.5" k="line_width"/>
+              <prop v="0.3" k="line_width"/>
               <prop v="MM" k="line_width_unit"/>
               <prop v="-1.2" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
               <prop v="0" k="ring_filter"/>
               <prop v="0" k="tweak_dash_pattern_on_corners"/>
-              <prop v="1" k="use_custom_dash"/>
+              <prop v="0" k="use_custom_dash"/>
               <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <effect enabled="0" type="effectStack">
                 <effect type="transform">
@@ -54860,14 +54860,14 @@ def my_form_open(dialog, layer, feature):
               <prop v="bevel" k="joinstyle"/>
               <prop v="214,28,0,255" k="line_color"/>
               <prop v="dot" k="line_style"/>
-              <prop v="0.5" k="line_width"/>
+              <prop v="0.3" k="line_width"/>
               <prop v="MM" k="line_width_unit"/>
               <prop v="1.2" k="offset"/>
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
               <prop v="0" k="ring_filter"/>
               <prop v="0" k="tweak_dash_pattern_on_corners"/>
-              <prop v="1" k="use_custom_dash"/>
+              <prop v="0" k="use_custom_dash"/>
               <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <effect enabled="0" type="effectStack">
                 <effect type="transform">
@@ -55084,8 +55084,8 @@ def my_form_open(dialog, layer, feature):
         </effect>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{59dee3f9-4d84-4b42-b199-71ce81edc01b}">
-          <rule description="SIGE" key="{3de9e733-0798-4e1c-864c-67110ceed60c}" filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
+        <rules key="{f726f215-22c5-4063-90f1-36e6e49fa9e7}">
+          <rule description="SIGE" key="{0ce9b61a-c267-40de-8143-cce56a41336a}" filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
             <settings calloutType="simple">
               <text-style textOrientation="horizontal" fontItalic="0" textOpacity="1" fontSize="8" isExpression="1" fontKerning="1" fontSizeUnit="Point" previewBkgrdColor="255,255,255,255" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;length_effective&quot; || 'm ',''),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;_slope_per_mill&quot; || '‰ ',''),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;ws_year_of_construction&quot;,'')&#xd;&#xa;)" fontFamily="Calibri" blendMode="0" textColor="214,28,0,255" fontWeight="50" fontWordSpacing="0" fontStrikeout="0" capitalization="0" fontLetterSpacing="0" allowHtml="0" namedStyle="Regular" useSubstitutions="0" fontUnderline="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <text-buffer bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="1" bufferBlendMode="0" bufferNoFill="0" bufferOpacity="1" bufferSize="1"/>
@@ -55182,7 +55182,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Communal ou privé" key="{0c01d15e-492a-4426-b0c5-cfe42a6a3e6f}" filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
+          <rule description="Communal ou privé" key="{141f35e2-8e67-4c29-91c3-de2a5f9d0d4f}" filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
             <settings calloutType="simple">
               <text-style textOrientation="horizontal" fontItalic="0" textOpacity="1" fontSize="8" isExpression="1" fontKerning="1" fontSizeUnit="Point" previewBkgrdColor="255,255,255,255" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;(CASE WHEN &quot;ch_usage_current&quot; = '4514' THEN ' (EC)' ELSE ''END)&#xd;&#xa;)" fontFamily="Calibri" blendMode="0" textColor="255,158,41,255" fontWeight="50" fontWordSpacing="0" fontStrikeout="0" capitalization="0" fontLetterSpacing="0" allowHtml="0" namedStyle="Regular" useSubstitutions="0" fontUnderline="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <text-buffer bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="1" bufferBlendMode="0" bufferNoFill="0" bufferOpacity="1" bufferSize="1"/>
@@ -55279,7 +55279,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Exutoir (Eaux Mixtes Déversées)" key="{b152dc0b-f9c7-4037-bc59-78816372c189}" filter="&quot;ch_usage_current&quot; = 4516">
+          <rule description="Exutoir (Eaux Mixtes Déversées)" key="{eb10a913-1649-4ce7-ad0c-572adfdb6e42}" filter="&quot;ch_usage_current&quot; = 4516">
             <settings calloutType="simple">
               <text-style textOrientation="horizontal" fontItalic="0" textOpacity="1" fontSize="8" isExpression="1" fontKerning="1" fontSizeUnit="Point" previewBkgrdColor="255,255,255,255" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', '')&#xa;)" fontFamily="Calibri" blendMode="0" textColor="50,220,50,255" fontWeight="50" fontWordSpacing="0" fontStrikeout="0" capitalization="0" fontLetterSpacing="0" allowHtml="0" namedStyle="Regular" useSubstitutions="0" fontUnderline="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <text-buffer bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="1" bufferBlendMode="0" bufferNoFill="0" bufferOpacity="1" bufferSize="1"/>
@@ -68620,7 +68620,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmax="2564542.41180865978822112" ymax="1149290.13442981825210154" ymin="1142344.15830980078317225" xmin="2551355.55865640239790082">
+    <DefaultViewExtent xmax="2564582.26115869963541627" ymax="1149509.54026298318058252" ymin="1142563.56414296571165323" xmin="2551395.40800644224509597">
       <spatialrefsys>
         <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
         <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
