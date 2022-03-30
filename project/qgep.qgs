@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.16.16-Hannover" saveUserFull="André Kevin" projectname="" saveUser="andrek" saveDateTime="2022-03-30T17:14:37">
+<qgis version="3.16.16-Hannover" saveUserFull="André Kevin" projectname="" saveUser="andrek" saveDateTime="2022-03-30T17:24:40">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -769,10 +769,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>2550935.8667863137088716</xmin>
-      <ymin>1141471.99697064491920173</ymin>
-      <xmax>2561086.79882384603843093</xmax>
-      <ymax>1149572.90364556643180549</ymax>
+      <xmin>2552472.78825618047267199</xmin>
+      <ymin>1139143.90703498106449842</ymin>
+      <xmax>2562623.72029377240687609</xmax>
+      <ymax>1147244.81370984297245741</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -55452,10 +55452,10 @@ def my_form_open(dialog, layer, feature):
         </effect>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{eeb8c214-f83c-4921-8a45-102175df7774}">
-          <rule description="SIGE" key="{122c550b-7fe6-4515-a5d8-c52025261035}" filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
+        <rules key="{12ab1dd7-3a42-45fb-9d03-76299cd0ce71}">
+          <rule description="SIGE" key="{85911ee1-3447-4d22-8716-18cf7c085d70}" filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
             <settings calloutType="simple">
-              <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="214,28,0,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;length_effective&quot; || 'm ',''),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;_slope_per_mill&quot; || '‰ ',''),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;ws_year_of_construction&quot;,''),&#xd;&#xa;COALESCE(' / chemisé en ' ||  &quot;ws_year_of_replacement&quot;,'')&#xd;&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
+              <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="214,28,0,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;COALESCE('\n' || &quot;length_effective&quot; || 'm ',''),&#xd;&#xa;COALESCE('\n' || &quot;_slope_per_mill&quot; || '‰ ',''),&#xd;&#xa;COALESCE(&quot;ws_year_of_construction&quot;,''),&#xd;&#xa;COALESCE(' / chemisé en ' ||  &quot;ws_year_of_replacement&quot;,''),&#xd;&#xa;COALESCE('\n' || &quot;remark&quot;,'')&#xd;&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
                 <text-buffer bufferOpacity="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferJoinStyle="128" bufferDraw="1" bufferNoFill="0" bufferSize="1" bufferColor="255,255,255,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
                 <text-mask maskSizeUnits="MM" maskType="0" maskEnabled="0" maskSize="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskedSymbolLayers="" maskJoinStyle="128" maskOpacity="1"/>
                 <background shapeRadiiX="0" shapeRadiiUnit="MM" shapeFillColor="255,255,255,255" shapeJoinStyle="64" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeSizeUnit="MM" shapeRotation="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeSVGFile="" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeRotationType="0" shapeBorderColor="128,128,128,255" shapeBorderWidth="0" shapeOffsetY="0" shapeOpacity="1" shapeOffsetX="0" shapeSizeY="0" shapeBlendMode="0" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeSizeType="0">
@@ -55550,9 +55550,9 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Communal ou privé" key="{d2436972-32c9-4123-b430-d4a47c97dbef}" filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
+          <rule description="Communal ou privé" key="{db97cb1e-413e-4cb7-99ae-e60eba2f21c6}" filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
             <settings calloutType="simple">
-              <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="255,158,41,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;(CASE WHEN &quot;ch_usage_current&quot; = '4514' THEN ' (EC)' ELSE ''END)&#xd;&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
+              <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="255,158,41,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;(CASE WHEN &quot;ch_usage_current&quot; = '4514' THEN ' (EC)' ELSE ''END),&#xd;&#xa;COALESCE('\n' || &quot;remark&quot; || ' ','')&#xd;&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
                 <text-buffer bufferOpacity="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferJoinStyle="128" bufferDraw="1" bufferNoFill="0" bufferSize="1" bufferColor="255,255,255,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
                 <text-mask maskSizeUnits="MM" maskType="0" maskEnabled="0" maskSize="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskedSymbolLayers="" maskJoinStyle="128" maskOpacity="1"/>
                 <background shapeRadiiX="0" shapeRadiiUnit="MM" shapeFillColor="255,255,255,255" shapeJoinStyle="64" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeSizeUnit="MM" shapeRotation="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeSVGFile="" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeRotationType="0" shapeBorderColor="128,128,128,255" shapeBorderWidth="0" shapeOffsetY="0" shapeOpacity="1" shapeOffsetX="0" shapeSizeY="0" shapeBlendMode="0" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeSizeType="0">
@@ -55647,9 +55647,9 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Exutoir (Eaux Mixtes Déversées)" key="{6dc6819e-028a-4c31-9ce3-6b49d3678f85}" filter="&quot;ch_usage_current&quot; = 4516">
+          <rule description="Exutoir (Eaux Mixtes Déversées)" key="{d5f15859-a73f-4383-8370-de53d1863c41}" filter="&quot;ch_usage_current&quot; = 4516">
             <settings calloutType="simple">
-              <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="50,220,50,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', '')&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
+              <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="50,220,50,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', ''),&#xd;&#xa;&#xd;&#xa;COALESCE('\n' || &quot;remark&quot; || ' ','')&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
                 <text-buffer bufferOpacity="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferJoinStyle="128" bufferDraw="1" bufferNoFill="0" bufferSize="1" bufferColor="255,255,255,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
                 <text-mask maskSizeUnits="MM" maskType="0" maskEnabled="0" maskSize="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskedSymbolLayers="" maskJoinStyle="128" maskOpacity="1"/>
                 <background shapeRadiiX="0" shapeRadiiUnit="MM" shapeFillColor="255,255,255,255" shapeJoinStyle="64" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeSizeUnit="MM" shapeRotation="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeSVGFile="" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeRotationType="0" shapeBorderColor="128,128,128,255" shapeBorderWidth="0" shapeOffsetY="0" shapeOpacity="1" shapeOffsetX="0" shapeSizeY="0" shapeBlendMode="0" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeSizeType="0">
@@ -69018,7 +69018,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="2550935.8667863137088716" ymin="1141118.30319589143618941" xmax="2561086.79882384603843093" ymax="1149926.59742031991481781">
+    <DefaultViewExtent xmin="2552472.78825618047267199" ymin="1138790.21326017193496227" xmax="2562623.72029377240687609" ymax="1147598.50748465210199356">
       <spatialrefsys>
         <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
         <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
