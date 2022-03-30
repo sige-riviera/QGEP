@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.16.16-Hannover" saveUserFull="André Kevin" projectname="" saveUser="andrek" saveDateTime="2022-03-30T16:42:59">
+<qgis version="3.16.16-Hannover" saveUserFull="André Kevin" projectname="" saveUser="andrek" saveDateTime="2022-03-30T17:14:37">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -23,13 +23,18 @@
     <layer-tree-layer patch_size="0,0" name="Chambres" providerKey="postgres" source="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure','discharge_point','infiltration_installation')" checked="Qt::Checked" expanded="0" id="vw_qgep_wastewater_structure" legend_exp="" legend_split_behavior="0">
       <customproperties>
         <property key="expandedLegendNodes" value="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
+        <property key="showFeatureCount" value="1"/>
       </customproperties>
     </layer-tree-layer>
     <layer-tree-group mutually-exclusive="1" name="Réseau" checked="Qt::Checked" expanded="1" mutually-exclusive-child="0">
       <customproperties/>
       <layer-tree-layer patch_size="0,0" name="Tronçons" providerKey="postgres" source="service='pg_qgep' key='obj_id' srid=2056 type=CompoundCurveZ checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_reach&quot; (progression_geometry)" checked="Qt::Checked" expanded="0" id="vw_qgep_reach" legend_exp="" legend_split_behavior="0">
         <customproperties>
-          <property key="expandedLegendNodes"/>
+          <property key="expandedLegendNodes">
+            <value>{4da67144-9b46-48bb-b3ec-27bb20d749e1}</value>
+            <value>{1ab87ffc-deef-4bc6-b078-835c634ab08b}</value>
+          </property>
+          <property key="showFeatureCount" value="1"/>
         </customproperties>
       </layer-tree-layer>
       <layer-tree-layer patch_size="-1,-1" name="Collecteurs primaires" providerKey="postgres" source="service='pg_qgep' key='row_number' srid=2056 type=MultiCurve checkPrimaryKeyUnicity='1' table=&quot;qgep_sige&quot;.&quot;vw_collecting_pipe_agg&quot; (collecting_pipe_geom)" checked="Qt::Unchecked" expanded="0" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" legend_exp="" legend_split_behavior="0">
@@ -648,40 +653,40 @@
   </layer-tree-group>
   <snapping-settings type="3" scaleDependencyMode="0" intersection-snapping="0" maxScale="0" tolerance="0" mode="3" unit="2" minScale="0" enabled="0" self-snapping="0">
     <individual-layer-settings>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_qgep_wastewater_structure" minScale="0" enabled="0" units="2"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" minScale="0" enabled="1" units="1"/>
       <layer-setting type="2" maxScale="0" tolerance="20" id="lc_limites_commune_copier20181108104112378" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="ab_rue_copier20181108104112287" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="bf_point_limite_copier20181108104111885" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="5" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="od_entree_batiment_copier20181108104111732" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_cover___" minScale="0" enabled="0" units="2"/>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_wastewater_node20150607121012062" minScale="0" enabled="0" units="2"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="od_element_lineaire_copier20181108104112570" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="bf_immeuble_copier20181108104112829" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="5" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="0" id="od_wastewater_structure" minScale="0" enabled="0" units="2"/>
-      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_network_node20150607120529398" minScale="0" enabled="0" units="2"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="od_element_surfacique_copier20181108104112995" minScale="0" enabled="1" units="1"/>
       <layer-setting type="2" maxScale="0" tolerance="0" id="vw_qgep_reach" minScale="0" enabled="0" units="2"/>
       <layer-setting type="2" maxScale="0" tolerance="20" id="cs_couverture_sol_copier20181108104113163" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_network_segment20150607120529381" minScale="0" enabled="0" units="2"/>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="15" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="1" maxScale="0" tolerance="12" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" minScale="0" enabled="0" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="od_entree_batiment_copier20181108104111732" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="0" id="od_wastewater_structure" minScale="0" enabled="0" units="2"/>
       <layer-setting type="1" maxScale="0" tolerance="10" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" minScale="0" enabled="1" units="1"/>
-      <layer-setting type="2" maxScale="0" tolerance="20" id="pf_points_fixes_copier20181108104112082" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="bf_immeuble_copier20181108104112829" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_network_segment20150607120529381" minScale="0" enabled="0" units="2"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_wastewater_node20150607121012062" minScale="0" enabled="0" units="2"/>
+      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_network_node20150607120529398" minScale="0" enabled="0" units="2"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="12" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" minScale="0" enabled="0" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="15" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_cover___" minScale="0" enabled="0" units="2"/>
+      <layer-setting type="2" maxScale="0" tolerance="0" id="vw_qgep_wastewater_structure" minScale="0" enabled="0" units="2"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="5" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="5" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="ab_rue_copier20181108104112287" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="bf_point_limite_copier20181108104111885" minScale="0" enabled="1" units="1"/>
       <layer-setting type="2" maxScale="0" tolerance="20" id="no_nomenclature_copier20181108104111532" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="od_element_lineaire_copier20181108104112570" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="1" maxScale="0" tolerance="10" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="od_element_surfacique_copier20181108104112995" minScale="0" enabled="1" units="1"/>
+      <layer-setting type="2" maxScale="0" tolerance="20" id="pf_points_fixes_copier20181108104112082" minScale="0" enabled="1" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
@@ -764,10 +769,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>2552121.74056904204189777</xmin>
-      <ymin>1140891.27845223667100072</ymin>
-      <xmax>2562272.6726065743714571</xmax>
-      <ymax>1148992.18512715818360448</ymax>
+      <xmin>2550935.8667863137088716</xmin>
+      <ymin>1141471.99697064491920173</ymin>
+      <xmax>2561086.79882384603843093</xmax>
+      <ymax>1149572.90364556643180549</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -788,13 +793,13 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="false">
-    <legendlayer showFeatureCount="0" name="Chambres" drawingOrder="6" checked="Qt::Checked" open="false">
+    <legendlayer showFeatureCount="1" name="Chambres" drawingOrder="6" checked="Qt::Checked" open="false">
       <filegroup open="false" hidden="false">
         <legendlayerfile layerid="vw_qgep_wastewater_structure" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendgroup name="Réseau" checked="Qt::Checked" open="true">
-      <legendlayer showFeatureCount="0" name="Tronçons" drawingOrder="12" checked="Qt::Checked" open="false">
+      <legendlayer showFeatureCount="1" name="Tronçons" drawingOrder="12" checked="Qt::Checked" open="false">
         <filegroup open="false" hidden="false">
           <legendlayerfile layerid="vw_qgep_reach" isInOverview="0" visible="1"/>
         </filegroup>
@@ -35080,9 +35085,26 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="active" exp=""/>
       </constraintExpressions>
       <expressionfields/>
-      <attributeactions/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-        <columns/>
+        <columns>
+          <column type="field" name="code" width="-1" hidden="0"/>
+          <column type="field" name="vsacode" width="-1" hidden="0"/>
+          <column type="field" name="value_en" width="-1" hidden="0"/>
+          <column type="field" name="value_de" width="-1" hidden="0"/>
+          <column type="field" name="value_fr" width="-1" hidden="0"/>
+          <column type="field" name="value_it" width="-1" hidden="0"/>
+          <column type="field" name="value_ro" width="-1" hidden="0"/>
+          <column type="field" name="abbr_en" width="-1" hidden="0"/>
+          <column type="field" name="abbr_de" width="-1" hidden="0"/>
+          <column type="field" name="abbr_fr" width="-1" hidden="0"/>
+          <column type="field" name="abbr_it" width="-1" hidden="0"/>
+          <column type="field" name="abbr_ro" width="-1" hidden="0"/>
+          <column type="field" name="active" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -35100,7 +35122,7 @@ def my_form_open(dialog, layer, feature):
       <labelOnTop/>
       <dataDefinedFieldProperties/>
       <widgets/>
-      <previewExpression></previewExpression>
+      <previewExpression>"code"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
     <maplayer type="vector" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" geometry="No geometry" maxScale="0" readOnly="0" refreshOnNotifyMessage="" autoRefreshTime="0" autoRefreshEnabled="0" minScale="1e+08" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
@@ -54940,18 +54962,22 @@ def my_form_open(dialog, layer, feature):
       </temporal>
       <renderer-v2 type="RuleRenderer" forceraster="0" enableorderby="0" symbollevels="0">
         <rules key="{b3f3f0a1-c8d2-4416-8d68-3de95a17bc02}">
-          <rule key="{6ca1bc3d-b4e9-4e2a-94a8-51bf5a330272}" label="SIGE" filter="&quot;ws_fk_owner&quot; = 'ch15z36dOG000025' AND &quot;ch_usage_current&quot; NOT IN (4516,5322) AND &quot;ws_status&quot; != 6529">
-            <rule key="{07247f1a-948a-4291-b898-ecd73e1e8494}" symbol="0" label="Collecteur primaire SIGE" filter="&quot;ch_function_hierarchic&quot; IN (5069,5071) AND &quot;ws_status&quot; != 6529"/>
-            <rule scalemaxdenom="5000" key="{5396a445-ad8b-4cd6-a331-85179b36568c}" symbol="1" label="Avec chemisage" filter="&quot;relining_kind&quot; IS NOT NULL"/>
+          <rule key="{4da67144-9b46-48bb-b3ec-27bb20d749e1}" label="Fonctionnel" filter="&quot;ws_status&quot; IN (8493)">
+            <rule key="{5c2bab4b-d396-456a-a34b-a2c29dd59d0c}" label="SIGE" filter="&quot;ws_fk_owner&quot; = 'ch15z36dOG000025' AND &quot;ch_usage_current&quot; NOT IN (4516,5322) AND &quot;ws_status&quot; != 6529">
+              <rule key="{b54d4b27-8d2f-4c2d-a482-45b06a96cfc9}" symbol="0" label="Collecteur primaire SIGE" filter="&quot;ch_function_hierarchic&quot; IN (5069,5071) AND &quot;ws_status&quot; != 6529"/>
+              <rule scalemaxdenom="5000" key="{6df1c392-7388-4dc8-a6e9-878f17ecee62}" symbol="1" label="Avec chemisage" filter="&quot;relining_kind&quot; IS NOT NULL"/>
+            </rule>
+            <rule key="{a5b244ab-1d09-4261-9cf8-8c7e5150a6cc}" label="Communal ou privé" filter="&quot;ws_fk_owner&quot; IN ('ch15z36dOG000003','ch15z36dOG000004','ch15z36dOG000005','ch15z36dOG000006','ch15z36dOG000007','ch15z36dOG000008','ch15z36dOG000009','ch15z36dOG000010','ch15z36dOG000011','ch15z36dOG000012','ch15z36dOG000013','ch15z36dOG000014','ch15z36dOG000015','ch15z36dOG000016','ch15z36dOG000017','ch15z36dOG000018','ch15z36dOG000019','ch15z36dOG000020','ch15z36dOG000021','ch15z36dOG000027','ch15z36dOG000024'&#xa;) AND &quot;ch_usage_current&quot; != 4516 AND &quot;ws_status&quot; != 6529">
+              <rule scalemaxdenom="5000" key="{3204ead1-db8a-4824-adce-82ed1448bbf3}" symbol="2" label="Collecteur secondaire communal ou privé" filter="&quot;ch_function_hierarchic&quot; NOT IN (5069,5070)"/>
+            </rule>
+            <rule scalemaxdenom="5000" key="{6a5396aa-2e59-49ab-94dc-6a1c822eb859}" symbol="3" label="Exutoir (Eaux Mixtes Déversées)" filter="&quot;ch_usage_current&quot; = 4516 AND &quot;ws_status&quot; != 6529"/>
+            <rule scalemaxdenom="5000" key="{a496fca6-50f9-49b4-9e1b-4f737cca54c9}" symbol="4" label="Aération" filter="&quot;ch_usage_current&quot; = 5322 AND &quot;ws_status&quot; != 6529"/>
+            <rule key="{789c938a-66cb-43b7-9e14-c5eac08f576a}" symbol="5" label="Communes conventionnées (EPUDHEL)" filter="&quot;ws_fk_owner&quot; IN ('ch15z36dOG000026') AND &quot;ch_usage_current&quot; != 4516 AND &quot;ws_status&quot; != 6529"/>
           </rule>
-          <rule scalemaxdenom="5000" key="{ad4433a8-362d-4ca8-9e48-a8cfe84bb7cd}" label="Communal ou privé" filter="&quot;ws_fk_owner&quot; IN ('ch15z36dOG000003','ch15z36dOG000004','ch15z36dOG000005','ch15z36dOG000006','ch15z36dOG000007','ch15z36dOG000008','ch15z36dOG000009','ch15z36dOG000010','ch15z36dOG000011','ch15z36dOG000012','ch15z36dOG000013','ch15z36dOG000014','ch15z36dOG000015','ch15z36dOG000016','ch15z36dOG000017','ch15z36dOG000018','ch15z36dOG000019','ch15z36dOG000020','ch15z36dOG000021','ch15z36dOG000027','ch15z36dOG000024'&#xa;) AND &quot;ch_usage_current&quot; != 4516 AND &quot;ws_status&quot; != 6529">
-            <rule key="{05396c61-bbe7-44f3-a3f1-cfc9f224265a}" symbol="2" label="Collecteur secondaire communal ou privé" filter="&quot;ch_function_hierarchic&quot; NOT IN (5069,5070)"/>
+          <rule key="{1ab87ffc-deef-4bc6-b078-835c634ab08b}" label="Non fonctionnel" filter="&quot;ws_status&quot; IN (6529,6523,6524,6532)">
+            <rule scalemaxdenom="5000" key="{2f1f68ed-f467-4081-b0c0-e7995b95db6e}" symbol="6" label="Désaffecté" filter="&quot;ws_status&quot; IN (6529,6523,6524,6532)"/>
+            <rule scalemaxdenom="5000" key="{347e3ede-0f97-4b10-ba53-6a17dbb3e74d}" symbol="7" label="En projet" filter="&quot;ws_status&quot; = 6529"/>
           </rule>
-          <rule scalemaxdenom="5000" key="{de10893c-b346-4e7c-9731-2cd52bc72735}" symbol="3" label="Exutoir (Eaux Mixtes Déversées)" filter="&quot;ch_usage_current&quot; = 4516 AND &quot;ws_status&quot; != 6529"/>
-          <rule scalemaxdenom="5000" key="{fbdf812b-2def-489a-9679-86e35216442b}" symbol="4" label="Aération" filter="&quot;ch_usage_current&quot; = 5322 AND &quot;ws_status&quot; != 6529"/>
-          <rule key="{c5148171-b354-4d2b-b7eb-7f9751823efc}" symbol="5" label="Communes conventionnées (EPUDHEL)" filter="&quot;ws_fk_owner&quot; IN ('ch15z36dOG000026') AND &quot;ch_usage_current&quot; != 4516 AND &quot;ws_status&quot; != 6529"/>
-          <rule scalemaxdenom="5000" checkstate="0" key="{66332cbe-4b98-48be-9dc8-f98598528d32}" symbol="6" label="En projet" filter="&quot;ws_status&quot; = 6529"/>
-          <rule scalemaxdenom="5000" checkstate="0" key="{eb03673e-f50f-447b-97e4-8715fe1f082b}" symbol="7" label="Désaffecté" filter="&quot;ws_status&quot; IN (6523,6524,6532)"/>
           <rule scalemaxdenom="5000" key="{78716d75-45b1-43d6-95e9-b9fcffe09035}" symbol="8" label="Données manquantes ou autres" filter="ELSE"/>
         </rules>
         <symbols>
@@ -55233,44 +55259,6 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleLine" pass="0" locked="0" enabled="1">
               <prop k="align_dash_pattern" v="0"/>
               <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="1;1"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="dash_pattern_offset" v="0"/>
-              <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="dash_pattern_offset_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="229,229,0,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.9"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="tweak_dash_pattern_on_corners" v="0"/>
-              <prop k="use_custom_dash" v="1"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
-                  <Option type="Map" name="properties">
-                    <Option type="Map" name="customDash">
-                      <Option type="bool" name="active" value="true"/>
-                      <Option type="QString" name="expression" value="CASE &#xd;&#xa;WHEN &quot;ch_function_hydraulic&quot; = 23 THEN '1;2'&#xd;&#xa;ELSE '10;0'&#xd;&#xa;END"/>
-                      <Option type="int" name="type" value="3"/>
-                    </Option>
-                  </Option>
-                  <Option type="QString" name="type" value="collection"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-          <symbol type="line" name="7" clip_to_extent="1" force_rhr="0" alpha="1">
-            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
-              <prop k="align_dash_pattern" v="0"/>
-              <prop k="capstyle" v="square"/>
               <prop k="customdash" v="3;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
@@ -55349,7 +55337,7 @@ def my_form_open(dialog, layer, feature):
                   <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
-              <symbol type="line" name="@7@1" clip_to_extent="1" force_rhr="0" alpha="1">
+              <symbol type="line" name="@6@1" clip_to_extent="1" force_rhr="0" alpha="1">
                 <layer class="SimpleLine" pass="0" locked="0" enabled="1">
                   <prop k="align_dash_pattern" v="0"/>
                   <prop k="capstyle" v="square"/>
@@ -55381,6 +55369,44 @@ def my_form_open(dialog, layer, feature):
                   </data_defined_properties>
                 </layer>
               </symbol>
+            </layer>
+          </symbol>
+          <symbol type="line" name="7" clip_to_extent="1" force_rhr="0" alpha="1">
+            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+              <prop k="align_dash_pattern" v="0"/>
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="1;1"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="dash_pattern_offset" v="0"/>
+              <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="dash_pattern_offset_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="229,229,0,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.9"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="tweak_dash_pattern_on_corners" v="0"/>
+              <prop k="use_custom_dash" v="1"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="customDash">
+                      <Option type="bool" name="active" value="true"/>
+                      <Option type="QString" name="expression" value="CASE &#xd;&#xa;WHEN &quot;ch_function_hydraulic&quot; = 23 THEN '1;2'&#xd;&#xa;ELSE '10;0'&#xd;&#xa;END"/>
+                      <Option type="int" name="type" value="3"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
           <symbol type="line" name="8" clip_to_extent="1" force_rhr="0" alpha="1">
@@ -55426,8 +55452,8 @@ def my_form_open(dialog, layer, feature):
         </effect>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{05240465-2544-47d4-8692-107a6143471a}">
-          <rule description="SIGE" key="{9fbb6ba3-6654-4cbe-a5e2-d6ff59dc8c62}" filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
+        <rules key="{eeb8c214-f83c-4921-8a45-102175df7774}">
+          <rule description="SIGE" key="{122c550b-7fe6-4515-a5d8-c52025261035}" filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
             <settings calloutType="simple">
               <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="214,28,0,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;length_effective&quot; || 'm ',''),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;_slope_per_mill&quot; || '‰ ',''),&#xd;&#xa;'\n',&#xd;&#xa;COALESCE(&quot;ws_year_of_construction&quot;,''),&#xd;&#xa;COALESCE(' / chemisé en ' ||  &quot;ws_year_of_replacement&quot;,'')&#xd;&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
                 <text-buffer bufferOpacity="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferJoinStyle="128" bufferDraw="1" bufferNoFill="0" bufferSize="1" bufferColor="255,255,255,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
@@ -55524,7 +55550,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Communal ou privé" key="{f8ba337e-fdb6-4a86-96f6-8f24439cb8c9}" filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
+          <rule description="Communal ou privé" key="{d2436972-32c9-4123-b430-d4a47c97dbef}" filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; != 4516">
             <settings calloutType="simple">
               <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="255,158,41,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;(CASE WHEN &quot;ch_usage_current&quot; = '4514' THEN ' (EC)' ELSE ''END)&#xd;&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
                 <text-buffer bufferOpacity="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferJoinStyle="128" bufferDraw="1" bufferNoFill="0" bufferSize="1" bufferColor="255,255,255,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
@@ -55621,7 +55647,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Exutoir (Eaux Mixtes Déversées)" key="{3cc05009-b739-479e-b809-aebc1a061c10}" filter="&quot;ch_usage_current&quot; = 4516">
+          <rule description="Exutoir (Eaux Mixtes Déversées)" key="{6dc6819e-028a-4c31-9ce3-6b49d3678f85}" filter="&quot;ch_usage_current&quot; = 4516">
             <settings calloutType="simple">
               <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" fontWordSpacing="0" textOpacity="1" fontItalic="0" useSubstitutions="0" fontWeight="50" fontLetterSpacing="0" fontFamily="Calibri" textColor="50,220,50,255" textOrientation="horizontal" blendMode="0" fontStrikeout="0" fontSize="8" multilineHeight="1" namedStyle="Regular" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', '')&#xa;)" isExpression="1" fontUnderline="0" fontSizeUnit="Point">
                 <text-buffer bufferOpacity="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferJoinStyle="128" bufferDraw="1" bufferNoFill="0" bufferSize="1" bufferColor="255,255,255,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
@@ -67030,18 +67056,10 @@ def my_form_open(dialog, layer, feature):
         <expanded-legend-node id="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </expanded-legend-nodes>
       <layer style="default" expanded="0" id="vw_qgep_reach" visible="1"/>
-      <checked-legend-nodes id="vw_qgep_reach">
-        <checked-legend-node id="{fbdf812b-2def-489a-9679-86e35216442b}"/>
-        <checked-legend-node id="{ad4433a8-362d-4ca8-9e48-a8cfe84bb7cd}"/>
-        <checked-legend-node id="{05396c61-bbe7-44f3-a3f1-cfc9f224265a}"/>
-        <checked-legend-node id="{de10893c-b346-4e7c-9731-2cd52bc72735}"/>
-        <checked-legend-node id="{c5148171-b354-4d2b-b7eb-7f9751823efc}"/>
-        <checked-legend-node id="{6ca1bc3d-b4e9-4e2a-94a8-51bf5a330272}"/>
-        <checked-legend-node id="{78716d75-45b1-43d6-95e9-b9fcffe09035}"/>
-        <checked-legend-node id="{07247f1a-948a-4291-b898-ecd73e1e8494}"/>
-        <checked-legend-node id="{5396a445-ad8b-4cd6-a331-85179b36568c}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="vw_qgep_reach"/>
+      <expanded-legend-nodes id="vw_qgep_reach">
+        <expanded-legend-node id="{4da67144-9b46-48bb-b3ec-27bb20d749e1}"/>
+        <expanded-legend-node id="{1ab87ffc-deef-4bc6-b078-835c634ab08b}"/>
+      </expanded-legend-nodes>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
       <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
       <layer style="défaut" expanded="1" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" visible="1"/>
@@ -67157,19 +67175,11 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="vw_qgep_wastewater_structure">
         <expanded-legend-node id="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </expanded-legend-nodes>
-      <layer style="default" expanded="0" id="vw_qgep_reach" visible="1"/>
-      <checked-legend-nodes id="vw_qgep_reach">
-        <checked-legend-node id="{fbdf812b-2def-489a-9679-86e35216442b}"/>
-        <checked-legend-node id="{ad4433a8-362d-4ca8-9e48-a8cfe84bb7cd}"/>
-        <checked-legend-node id="{05396c61-bbe7-44f3-a3f1-cfc9f224265a}"/>
-        <checked-legend-node id="{de10893c-b346-4e7c-9731-2cd52bc72735}"/>
-        <checked-legend-node id="{c5148171-b354-4d2b-b7eb-7f9751823efc}"/>
-        <checked-legend-node id="{6ca1bc3d-b4e9-4e2a-94a8-51bf5a330272}"/>
-        <checked-legend-node id="{78716d75-45b1-43d6-95e9-b9fcffe09035}"/>
-        <checked-legend-node id="{07247f1a-948a-4291-b898-ecd73e1e8494}"/>
-        <checked-legend-node id="{5396a445-ad8b-4cd6-a331-85179b36568c}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="vw_qgep_reach"/>
+      <layer style="default" expanded="1" id="vw_qgep_reach" visible="1"/>
+      <expanded-legend-nodes id="vw_qgep_reach">
+        <expanded-legend-node id="{4da67144-9b46-48bb-b3ec-27bb20d749e1}"/>
+        <expanded-legend-node id="{1ab87ffc-deef-4bc6-b078-835c634ab08b}"/>
+      </expanded-legend-nodes>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
       <expanded-legend-nodes id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da"/>
       <layer style="défaut" expanded="1" id="batch_cleaning_634d4920_6975_4f7a_a06d_c6839707f6c8" visible="1"/>
@@ -67230,11 +67240,11 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb"/>
       <layer style="default" expanded="0" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0"/>
       <expanded-legend-nodes id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd"/>
-      <layer style="défaut" expanded="1" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" visible="1"/>
+      <layer style="défaut" expanded="1" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" visible="0"/>
       <expanded-legend-nodes id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855"/>
-      <layer style="défaut" expanded="1" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" visible="1"/>
+      <layer style="défaut" expanded="1" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" visible="0"/>
       <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b"/>
-      <layer style="défaut" expanded="1" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="1"/>
+      <layer style="défaut" expanded="1" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0"/>
       <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
       <layer style="défaut" expanded="1" id="no_nomenclature_copier20181108104111532" visible="1"/>
       <expanded-legend-nodes id="no_nomenclature_copier20181108104111532"/>
@@ -67266,7 +67276,6 @@ def my_form_open(dialog, layer, feature):
       <checked-group-nodes>
         <checked-group-node id="Edition des tableaux"/>
         <checked-group-node id="Options avancées"/>
-        <checked-group-node id="Données externes"/>
         <checked-group-node id="Options avancées/Ouvrages"/>
         <checked-group-node id="Equipements d'ouvrages"/>
         <checked-group-node id="Fonds de plans"/>
@@ -67274,15 +67283,19 @@ def my_form_open(dialog, layer, feature):
         <checked-group-node id="Réseau"/>
       </checked-group-nodes>
       <expanded-group-nodes>
+        <expanded-group-node id="Options avancées"/>
         <expanded-group-node id="Données externes"/>
+        <expanded-group-node id="Fonds de plans/Fonds de plans - impression 5000"/>
+        <expanded-group-node id="Options avancées/Listes de valeurs"/>
+        <expanded-group-node id="Fonds de plans/Cadastre"/>
         <expanded-group-node id="Réseau"/>
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="c. Collecteurs primaires" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
@@ -67390,10 +67403,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="d. Lots de curages" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
@@ -67502,10 +67515,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="e. Lots d'inspections" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="0" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" visible="1"/>
@@ -67614,10 +67627,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="f. Classes d'état des tronçons" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
@@ -67726,10 +67739,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="g. Editer le nom de collecteur d'un tronçon" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
@@ -67840,10 +67853,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="h. Editer le lot de curage d'un tronçon" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
@@ -67954,10 +67967,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="i. Editer le lot d'inspection d'un tronçon" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
@@ -68068,10 +68081,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="j. Rapport de gestion , curages de l'année" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
@@ -68180,10 +68193,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="k. Rapport de gestion , inspections de l'année" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="Rapport de gestion" expanded="1" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" visible="1"/>
@@ -68292,10 +68305,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="l. Export DXF" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="0"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="0"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="0"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="0"/>
@@ -68405,10 +68418,10 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset name="x. Corrections" has-checked-group-info="1" has-expanded-info="1">
-      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="1"/>
-      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="od_organisation20160212172933583" visible="1"/>
       <expanded-legend-nodes id="od_organisation20160212172933583"/>
+      <layer style="default" expanded="1" id="overflow_char20180603140933293" visible="1"/>
+      <expanded-legend-nodes id="overflow_char20180603140933293"/>
       <layer style="default" expanded="1" id="vw_pump20180603141532062" visible="1"/>
       <expanded-legend-nodes id="vw_pump20180603141532062"/>
       <layer style="défaut" expanded="1" id="collecting_pipe_dad72525_7f80_47f1_962c_c6d72bad52da" visible="1"/>
@@ -69005,7 +69018,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="2552121.74056904204189777" ymin="1140537.5846774831879884" xmax="2562272.6726065743714571" ymax="1149345.8789019116666168">
+    <DefaultViewExtent xmin="2550935.8667863137088716" ymin="1141118.30319589143618941" xmax="2561086.79882384603843093" ymax="1149926.59742031991481781">
       <spatialrefsys>
         <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
         <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
