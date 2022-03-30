@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.16.16-Hannover" saveUserFull="André Kevin" projectname="" saveUser="andrek" saveDateTime="2022-03-30T17:32:12">
+<qgis version="3.16.16-Hannover" saveUserFull="André Kevin" projectname="" saveUser="andrek" saveDateTime="2022-03-30T17:34:02">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -54978,11 +54978,11 @@ def my_form_open(dialog, layer, feature):
             <rule scalemaxdenom="5000" key="{a496fca6-50f9-49b4-9e1b-4f737cca54c9}" symbol="4" label="Aération" filter="&quot;ch_usage_current&quot; = 5322"/>
             <rule key="{789c938a-66cb-43b7-9e14-c5eac08f576a}" symbol="5" label="Communes conventionnées (EPUDHEL)" filter="&quot;ws_fk_owner&quot; IN ('ch15z36dOG000026') AND &quot;ch_usage_current&quot; != 4516"/>
           </rule>
-          <rule key="{1ab87ffc-deef-4bc6-b078-835c634ab08b}" label="Non fonctionnel" filter="&quot;ws_status&quot; IN (6529,6523,6524,6532)">
+          <rule checkstate="0" key="{1ab87ffc-deef-4bc6-b078-835c634ab08b}" label="Non fonctionnel" filter="&quot;ws_status&quot; IN (6529,6523,6524,6532)">
             <rule scalemaxdenom="5000" key="{2f1f68ed-f467-4081-b0c0-e7995b95db6e}" symbol="6" label="Désaffecté" filter="&quot;ws_status&quot; IN (6529,6523,6524,6532)"/>
             <rule scalemaxdenom="5000" key="{347e3ede-0f97-4b10-ba53-6a17dbb3e74d}" symbol="7" label="En projet" filter="&quot;ws_status&quot; = 6529"/>
           </rule>
-          <rule scalemaxdenom="5000" key="{78716d75-45b1-43d6-95e9-b9fcffe09035}" symbol="8" label="Données manquantes ou autres" filter="ELSE"/>
+          <rule scalemaxdenom="5000" checkstate="0" key="{78716d75-45b1-43d6-95e9-b9fcffe09035}" symbol="8" label="Données manquantes ou autres" filter="ELSE"/>
         </rules>
         <symbols>
           <symbol type="line" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
@@ -67159,6 +67159,19 @@ def my_form_open(dialog, layer, feature):
         <expanded-legend-node id="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </expanded-legend-nodes>
       <layer style="default" expanded="0" id="vw_qgep_reach" visible="1"/>
+      <checked-legend-nodes id="vw_qgep_reach">
+        <checked-legend-node id="{2f1f68ed-f467-4081-b0c0-e7995b95db6e}"/>
+        <checked-legend-node id="{6df1c392-7388-4dc8-a6e9-878f17ecee62}"/>
+        <checked-legend-node id="{347e3ede-0f97-4b10-ba53-6a17dbb3e74d}"/>
+        <checked-legend-node id="{789c938a-66cb-43b7-9e14-c5eac08f576a}"/>
+        <checked-legend-node id="{3204ead1-db8a-4824-adce-82ed1448bbf3}"/>
+        <checked-legend-node id="{a496fca6-50f9-49b4-9e1b-4f737cca54c9}"/>
+        <checked-legend-node id="{5c2bab4b-d396-456a-a34b-a2c29dd59d0c}"/>
+        <checked-legend-node id="{a5b244ab-1d09-4261-9cf8-8c7e5150a6cc}"/>
+        <checked-legend-node id="{4da67144-9b46-48bb-b3ec-27bb20d749e1}"/>
+        <checked-legend-node id="{6a5396aa-2e59-49ab-94dc-6a1c822eb859}"/>
+        <checked-legend-node id="{b54d4b27-8d2f-4c2d-a482-45b06a96cfc9}"/>
+      </checked-legend-nodes>
       <expanded-legend-nodes id="vw_qgep_reach">
         <expanded-legend-node id="{4da67144-9b46-48bb-b3ec-27bb20d749e1}"/>
         <expanded-legend-node id="{1ab87ffc-deef-4bc6-b078-835c634ab08b}"/>
@@ -67278,7 +67291,20 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="vw_qgep_wastewater_structure">
         <expanded-legend-node id="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
       </expanded-legend-nodes>
-      <layer style="default" expanded="1" id="vw_qgep_reach" visible="1"/>
+      <layer style="default" expanded="0" id="vw_qgep_reach" visible="1"/>
+      <checked-legend-nodes id="vw_qgep_reach">
+        <checked-legend-node id="{2f1f68ed-f467-4081-b0c0-e7995b95db6e}"/>
+        <checked-legend-node id="{6df1c392-7388-4dc8-a6e9-878f17ecee62}"/>
+        <checked-legend-node id="{347e3ede-0f97-4b10-ba53-6a17dbb3e74d}"/>
+        <checked-legend-node id="{789c938a-66cb-43b7-9e14-c5eac08f576a}"/>
+        <checked-legend-node id="{3204ead1-db8a-4824-adce-82ed1448bbf3}"/>
+        <checked-legend-node id="{a496fca6-50f9-49b4-9e1b-4f737cca54c9}"/>
+        <checked-legend-node id="{5c2bab4b-d396-456a-a34b-a2c29dd59d0c}"/>
+        <checked-legend-node id="{a5b244ab-1d09-4261-9cf8-8c7e5150a6cc}"/>
+        <checked-legend-node id="{4da67144-9b46-48bb-b3ec-27bb20d749e1}"/>
+        <checked-legend-node id="{6a5396aa-2e59-49ab-94dc-6a1c822eb859}"/>
+        <checked-legend-node id="{b54d4b27-8d2f-4c2d-a482-45b06a96cfc9}"/>
+      </checked-legend-nodes>
       <expanded-legend-nodes id="vw_qgep_reach">
         <expanded-legend-node id="{4da67144-9b46-48bb-b3ec-27bb20d749e1}"/>
         <expanded-legend-node id="{1ab87ffc-deef-4bc6-b078-835c634ab08b}"/>
@@ -67386,10 +67412,8 @@ def my_form_open(dialog, layer, feature):
         <checked-group-node id="Réseau"/>
       </checked-group-nodes>
       <expanded-group-nodes>
-        <expanded-group-node id="Options avancées"/>
         <expanded-group-node id="Données externes"/>
         <expanded-group-node id="Fonds de plans/Fonds de plans - impression 5000"/>
-        <expanded-group-node id="Options avancées/Listes de valeurs"/>
         <expanded-group-node id="Fonds de plans/Cadastre"/>
         <expanded-group-node id="Réseau"/>
       </expanded-group-nodes>
