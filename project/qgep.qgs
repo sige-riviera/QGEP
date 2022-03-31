@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.16.16-Hannover" saveDateTime="2022-03-31T09:40:08" saveUser="andrek" saveUserFull="André Kevin">
+<qgis projectname="" version="3.16.16-Hannover" saveDateTime="2022-03-31T09:53:23" saveUser="andrek" saveUserFull="André Kevin">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -653,40 +653,40 @@
   </layer-tree-group>
   <snapping-settings enabled="0" self-snapping="0" unit="2" intersection-snapping="0" scaleDependencyMode="0" type="3" tolerance="0" mode="3" maxScale="0" minScale="0">
     <individual-layer-settings>
-      <layer-setting enabled="1" units="1" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" type="1" tolerance="10" maxScale="0" minScale="0"/>
       <layer-setting enabled="0" units="1" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" type="1" tolerance="12" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="od_element_surfacique_copier20181108104112995" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_network_node20150607120529398" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="cs_couverture_sol_copier20181108104113163" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="pf_points_fixes_copier20181108104112082" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_qgep_reach" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="od_element_lineaire_copier20181108104112570" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" type="1" tolerance="10" maxScale="0" minScale="0"/>
       <layer-setting enabled="1" units="1" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" type="1" tolerance="15" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" type="1" tolerance="5" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="bf_immeuble_copier20181108104112829" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="od_wastewater_structure" type="2" tolerance="0" maxScale="0" minScale="0"/>
       <layer-setting enabled="0" units="2" id="vw_wastewater_node20150607121012062" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_qgep_wastewater_structure" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="od_entree_batiment_copier20181108104111732" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="bf_point_limite_copier20181108104111885" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="ab_rue_copier20181108104112287" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" type="1" tolerance="5" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_cover___" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="no_nomenclature_copier20181108104111532" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="lc_limites_commune_copier20181108104112378" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_network_segment20150607120529381" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" type="1" tolerance="5" maxScale="0" minScale="0"/>
       <layer-setting enabled="1" units="1" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="bf_immeuble_copier20181108104112829" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="ab_rue_copier20181108104112287" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="no_nomenclature_copier20181108104111532" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_network_segment20150607120529381" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="od_wastewater_structure" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_qgep_reach" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_cover___" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_network_node20150607120529398" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="cs_couverture_sol_copier20181108104113163" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="lc_limites_commune_copier20181108104112378" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="bf_point_limite_copier20181108104111885" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_qgep_wastewater_structure" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="od_entree_batiment_copier20181108104111732" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" type="1" tolerance="5" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="pf_points_fixes_copier20181108104112082" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="od_element_surfacique_copier20181108104112995" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="od_element_lineaire_copier20181108104112570" type="2" tolerance="20" maxScale="0" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
@@ -54966,7 +54966,7 @@ def my_form_open(dialog, layer, feature):
         <rules key="{b3f3f0a1-c8d2-4416-8d68-3de95a17bc02}">
           <rule filter="&quot;ws_status&quot; IN (8493)" key="{4da67144-9b46-48bb-b3ec-27bb20d749e1}" label="Fonctionnel">
             <rule filter="&quot;ws_fk_owner&quot; = 'ch15z36dOG000025' AND &quot;ch_usage_current&quot; NOT IN (4516,5322)" key="{5c2bab4b-d396-456a-a34b-a2c29dd59d0c}" label="SIGE">
-              <rule filter="&quot;ch_function_hierarchic&quot; IN (5069,5071) AND &quot;ws_status&quot; != 6529" symbol="0" key="{b54d4b27-8d2f-4c2d-a482-45b06a96cfc9}" label="Collecteur primaire SIGE"/>
+              <rule filter="&quot;ch_function_hierarchic&quot; IN (5069,5071)" symbol="0" key="{b54d4b27-8d2f-4c2d-a482-45b06a96cfc9}" label="Collecteur primaire SIGE"/>
               <rule filter="&quot;relining_kind&quot; IS NOT NULL" symbol="1" key="{6df1c392-7388-4dc8-a6e9-878f17ecee62}" label="Avec chemisage" scalemaxdenom="5000"/>
             </rule>
             <rule filter="&quot;ws_fk_owner&quot; IN ('ch15z36dOG000003','ch15z36dOG000004','ch15z36dOG000005','ch15z36dOG000006','ch15z36dOG000007','ch15z36dOG000008','ch15z36dOG000009','ch15z36dOG000010','ch15z36dOG000011','ch15z36dOG000012','ch15z36dOG000013','ch15z36dOG000014','ch15z36dOG000015','ch15z36dOG000016','ch15z36dOG000017','ch15z36dOG000018','ch15z36dOG000019','ch15z36dOG000020','ch15z36dOG000021','ch15z36dOG000027','ch15z36dOG000024'&#xa;) AND &quot;ch_usage_current&quot; != 4516" key="{a5b244ab-1d09-4261-9cf8-8c7e5150a6cc}" label="Communal ou privé">
@@ -55454,8 +55454,8 @@ def my_form_open(dialog, layer, feature):
         </effect>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{941f22fe-cc58-4ed6-8411-558f5b6dddc8}">
-          <rule filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; NOT IN (4516,5322) " key="{de0aeba2-60c4-4b2b-aa1d-8261556b07f7}" description="SIGE">
+        <rules key="{70c49acc-d885-4ff6-ba46-36729a54c0cd}">
+          <rule filter="(&quot;ws_fk_owner&quot; = 'ch15z36dOG000025'  AND &quot;ch_function_hierarchic&quot; IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; NOT IN (4516,5322) " key="{9dd9a03b-5d1c-4534-960c-526603da0600}" description="SIGE">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" fontItalic="0" textOpacity="1" textColor="214,28,0,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" fontLetterSpacing="0" fontSize="8" namedStyle="Regular" fontKerning="1" allowHtml="0" fontWeight="50" textOrientation="horizontal" fontUnderline="0" blendMode="0" fontSizeUnit="Point" capitalization="0" fontWordSpacing="0" fontFamily="Calibri" multilineHeight="1" isExpression="1" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;COALESCE('\n' || &quot;length_effective&quot; || 'm ',''),&#xd;&#xa;COALESCE('\n' || &quot;_slope_per_mill&quot; || '‰ ',''),&#xd;&#xa;COALESCE(&quot;ws_year_of_construction&quot;,''),&#xd;&#xa;COALESCE(' / chemisé en ' ||  &quot;ws_year_of_replacement&quot;,''),&#xd;&#xa;COALESCE('\n' || &quot;remark&quot;,'')&#xd;&#xa;)">
                 <text-buffer bufferSize="1" bufferNoFill="0" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferBlendMode="0" bufferDraw="1" bufferOpacity="1" bufferColor="255,255,255,255"/>
@@ -55552,7 +55552,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; NOT IN (4516,5322) " key="{92332876-3253-4dfe-a9c2-ec38092b7519}" description="Communal ou privé">
+          <rule filter="(&quot;ws_fk_owner&quot; != 'ch15z36dOG000025' OR &quot;ch_function_hierarchic&quot; NOT IN (5068,5069,5070,5041)) AND &quot;ch_usage_current&quot; NOT IN (4516,5322) " key="{d3320013-d7cb-4fac-9ac7-2a85a6a27d56}" description="Communal ou privé">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" fontItalic="0" textOpacity="1" textColor="255,158,41,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" fontLetterSpacing="0" fontSize="8" namedStyle="Regular" fontKerning="1" allowHtml="0" fontWeight="50" textOrientation="horizontal" fontUnderline="0" blendMode="0" fontSizeUnit="Point" capitalization="0" fontWordSpacing="0" fontFamily="Calibri" multilineHeight="1" isExpression="1" fieldName="CONCAT(&#xd;&#xa;COALESCE(&quot;material_abbr_fr&quot; || ' ',''),&#xd;&#xa;if(&quot;width&quot; = &quot;clear_height&quot;,COALESCE(&quot;width&quot; ||' ', ''),COALESCE(&quot;width&quot; || 'x' || &quot;clear_height&quot; || ' ', '')),&#xd;&#xa;(CASE WHEN &quot;ch_usage_current&quot; = '4514' THEN ' (EC)' ELSE ''END),&#xd;&#xa;COALESCE('\n' || &quot;remark&quot; || ' ','')&#xd;&#xa;)">
                 <text-buffer bufferSize="1" bufferNoFill="0" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferBlendMode="0" bufferDraw="1" bufferOpacity="1" bufferColor="255,255,255,255"/>
@@ -55649,7 +55649,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="&quot;ch_usage_current&quot; = 4516" key="{91be126b-1fed-448c-a387-d20530af98ac}" description="Exutoir (Eaux Mixtes Déversées)">
+          <rule filter="&quot;ch_usage_current&quot; = 4516" key="{e43b0d39-5267-4ba2-bd1b-f19cc0557634}" description="Exutoir (Eaux Mixtes Déversées)">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" fontItalic="0" textOpacity="1" textColor="50,220,50,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" fontLetterSpacing="0" fontSize="8" namedStyle="Regular" fontKerning="1" allowHtml="0" fontWeight="50" textOrientation="horizontal" fontUnderline="0" blendMode="0" fontSizeUnit="Point" capitalization="0" fontWordSpacing="0" fontFamily="Calibri" multilineHeight="1" isExpression="1" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', ''),&#xd;&#xa;COALESCE('\n' || &quot;remark&quot; || ' ','')&#xa;)">
                 <text-buffer bufferSize="1" bufferNoFill="0" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferBlendMode="0" bufferDraw="1" bufferOpacity="1" bufferColor="255,255,255,255"/>
@@ -55746,7 +55746,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="&quot;ch_usage_current&quot; = 5322" key="{66127dcb-f709-4d0f-af07-ca57df7dc3bd}" description="Exutoir (Eaux Mixtes Déversées)">
+          <rule filter="&quot;ch_usage_current&quot; = 5322" key="{287aeb92-fd8f-4fb3-b524-7c3902ba1eaa}" description="Exutoir (Eaux Mixtes Déversées)">
             <settings calloutType="simple">
               <text-style fontStrikeout="0" fontItalic="0" textOpacity="1" textColor="39,225,219,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" fontLetterSpacing="0" fontSize="8" namedStyle="Regular" fontKerning="1" allowHtml="0" fontWeight="50" textOrientation="horizontal" fontUnderline="0" blendMode="0" fontSizeUnit="Point" capitalization="0" fontWordSpacing="0" fontFamily="Calibri" multilineHeight="1" isExpression="1" fieldName="CONCAT(&#xa;COALESCE(&quot;material_abbr_fr&quot;|| ' ',''),&#xa;COALESCE(&quot;width&quot;||' ', ''),&#xd;&#xa;COALESCE('\n' || &quot;remark&quot; || ' ','')&#xa;)">
                 <text-buffer bufferSize="1" bufferNoFill="0" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferBlendMode="0" bufferDraw="1" bufferOpacity="1" bufferColor="255,255,255,255"/>
@@ -67215,10 +67215,10 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
       <layer id="vw_wastewater_node20150607121012062" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_wastewater_node20150607121012062"/>
-      <layer id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0" style="défaut" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
       <layer id="ab_rue_copier20181108104112287" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
+      <layer id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0" style="défaut" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
       <layer id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
       <layer id="vw_backflow_prevention" visible="1" style="default" expanded="1"/>
@@ -67346,10 +67346,10 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_current_84b68acf_abf2_4a39_9231_83672e4702ed"/>
       <layer id="vw_wastewater_node20150607121012062" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_wastewater_node20150607121012062"/>
-      <layer id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0" style="défaut" expanded="1"/>
-      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
       <layer id="ab_rue_copier20181108104112287" visible="1" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="ab_rue_copier20181108104112287"/>
+      <layer id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" visible="0" style="défaut" expanded="1"/>
+      <expanded-legend-nodes id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825"/>
       <layer id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="catchment_area_infiltration_current_f6e24559_7761_4a94_8630_7b230f3efb10"/>
       <layer id="vw_backflow_prevention" visible="1" style="default" expanded="1"/>
@@ -67482,10 +67482,10 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="1" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -67593,12 +67593,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="0" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -67705,12 +67705,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="0" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -67817,10 +67817,10 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -67929,12 +67929,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="0" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -68043,12 +68043,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="0" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -68155,12 +68155,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="0" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -68271,12 +68271,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="0" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -68383,12 +68383,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="0" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -68495,12 +68495,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="0" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="0" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="0" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
@@ -68608,12 +68608,12 @@ def my_form_open(dialog, layer, feature):
       <expanded-legend-nodes id="catchment_area_drainage_system_planned_24edf502_9ff6_4e7e_bdcb_afc5d84ba869"/>
       <layer id="bf_immeuble_copier20181108104112829" visible="1" style="défaut" expanded="0"/>
       <expanded-legend-nodes id="bf_immeuble_copier20181108104112829"/>
-      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
-      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="vw_leapingweir20180603141619261" visible="1" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_leapingweir20180603141619261"/>
       <layer id="vw_prank_weir20180603141619323" visible="1" style="default" expanded="1"/>
       <expanded-legend-nodes id="vw_prank_weir20180603141619323"/>
+      <layer id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586" visible="0" style="default" expanded="1"/>
+      <expanded-legend-nodes id="catchment_area_direct_discharge_planned_e8c02860_06be_4068_86d0_02828aa6a586"/>
       <layer id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" visible="1" style="défaut" expanded="1"/>
       <expanded-legend-nodes id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78"/>
       <layer id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" visible="0" style="default" expanded="0"/>
