@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.16.16-Hannover" saveDateTime="2022-03-31T09:53:23" saveUser="andrek" saveUserFull="André Kevin">
+<qgis projectname="" version="3.16.16-Hannover" saveDateTime="2022-03-31T11:01:55" saveUser="andrek" saveUserFull="André Kevin">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -23,7 +23,7 @@
     <layer-tree-layer patch_size="0,0" id="vw_qgep_wastewater_structure" providerKey="postgres" checked="Qt::Checked" name="Chambres" legend_exp="" legend_split_behavior="0" source="service='pg_qgep' key='obj_id' estimatedmetadata=true srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;qgep_od&quot;.&quot;vw_qgep_wastewater_structure&quot; (situation_geometry) sql=&quot;ws_type&quot; IN('manhole','special_structure','discharge_point','infiltration_installation')" expanded="0">
       <customproperties>
         <property key="expandedLegendNodes" value="{d5d5c30d-8d19-4b52-bc0c-1d49fa29890c}"/>
-        <property key="showFeatureCount" value="1"/>
+        <property key="showFeatureCount" value="0"/>
       </customproperties>
     </layer-tree-layer>
     <layer-tree-group mutually-exclusive-child="0" mutually-exclusive="1" checked="Qt::Checked" name="Réseau" expanded="1">
@@ -34,7 +34,7 @@
             <value>{4da67144-9b46-48bb-b3ec-27bb20d749e1}</value>
             <value>{1ab87ffc-deef-4bc6-b078-835c634ab08b}</value>
           </property>
-          <property key="showFeatureCount" value="1"/>
+          <property key="showFeatureCount" value="0"/>
         </customproperties>
       </layer-tree-layer>
       <layer-tree-layer patch_size="-1,-1" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" providerKey="postgres" checked="Qt::Unchecked" name="Collecteurs primaires" legend_exp="" legend_split_behavior="0" source="service='pg_qgep' key='row_number' srid=2056 type=MultiCurve checkPrimaryKeyUnicity='1' table=&quot;qgep_sige&quot;.&quot;vw_collecting_pipe_agg&quot; (collecting_pipe_geom)" expanded="0">
@@ -653,40 +653,40 @@
   </layer-tree-group>
   <snapping-settings enabled="0" self-snapping="0" unit="2" intersection-snapping="0" scaleDependencyMode="0" type="3" tolerance="0" mode="3" maxScale="0" minScale="0">
     <individual-layer-settings>
-      <layer-setting enabled="0" units="1" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" type="1" tolerance="12" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" type="1" tolerance="15" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_wastewater_node20150607121012062" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" type="2" tolerance="20" maxScale="0" minScale="0"/>
       <layer-setting enabled="1" units="1" id="catchment_area_c7208cec_d8c1_4845_8361_b1ecedf7aabd" type="1" tolerance="5" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="bf_immeuble_copier20181108104112829" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="ab_rue_copier20181108104112287" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="no_nomenclature_copier20181108104111532" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_network_segment20150607120529381" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="od_wastewater_structure" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_qgep_reach" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_cover___" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="od_entree_batiment_copier20181108104111732" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="od_element_surfacique_copier20181108104112995" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="EU_Telecommandes_entities_1deebe46_7b96_41cb_8db5_6bdfaa789855" type="1" tolerance="15" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="printmap_5c2faffc_06b8_43f5_bf53_646868d5cd9a" type="2" tolerance="20" maxScale="0" minScale="0"/>
       <layer-setting enabled="1" units="1" id="enquete_cadastre_77ba273b_289c_4697_965f_339d20e6da48" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="ab_rue_copier20181108104112287" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="cs_couverture_sol_copier20181108104113163" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" type="1" tolerance="5" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="1" id="reach_point_741b56d7_c835_4a24_ac8a_284f4ba60e70" type="1" tolerance="12" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_batch_cleaning_agg_142c365a_e394_4512_8d6d_3ca296b33e8c" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="lc_limites_commune_copier20181108104112378" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_wastewater_node20150607121012062" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="od_element_lineaire_copier20181108104112570" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="vw_pumping_reach_dfc4c04c_8f5e_4e07_ba38_706f34496e83" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_qgep_reach" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_qgep_wastewater_structure" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="Details_assainissement_MN95_new_entities_f64b3737_9268_4bfa_b056_82cb2ca75d9b" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_cover___" type="2" tolerance="0" maxScale="0" minScale="0"/>
       <layer-setting enabled="1" units="1" id="cs_couverture_sol_9dec5279_69cd_4fdd_8709_6af45f72be78" type="1" tolerance="10" maxScale="0" minScale="0"/>
       <layer-setting enabled="0" units="2" id="vw_network_node20150607120529398" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_qgep_reach_6afb0d56_7dde_4139_bb63_2eab10e7673f" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="cs_couverture_sol_copier20181108104113163" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_batch_inspection_agg_2151e6a7_b0f6_4f5c_a377_d1ce1a2e54a7" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_collecting_pipe_agg_6f8cf821_aa6a_48c3_8bc3_cb17e84a8ff5" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="lc_limites_commune_copier20181108104112378" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="Details_assainissement_MN95_new_entities_1cf2795e_c54e_4abf_8448_7664126dd825" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="bf_point_limite_copier20181108104111885" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="0" units="2" id="vw_qgep_wastewater_structure" type="2" tolerance="0" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_686df681_e878_4b0a_bfcb_81239037b4d3" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="od_entree_batiment_copier20181108104111732" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_individual_surface_fa4c8711_d370_49ce_80f9_577576fbc1cb" type="1" tolerance="5" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="pf_points_fixes_copier20181108104112082" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_d6925abb_c695_4b39_a1f7_fe37b7c38418" type="1" tolerance="10" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="vw_network_segment20150607120529381" type="2" tolerance="0" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="no_nomenclature_copier20181108104111532" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="0" units="2" id="od_wastewater_structure" type="2" tolerance="0" maxScale="0" minScale="0"/>
       <layer-setting enabled="1" units="1" id="vw_edit_collecting_pipe_198249e5_4e26_4ee7_b4e6_d90091ef488d" type="1" tolerance="10" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="od_element_surfacique_copier20181108104112995" type="2" tolerance="20" maxScale="0" minScale="0"/>
-      <layer-setting enabled="1" units="1" id="od_element_lineaire_copier20181108104112570" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="bf_immeuble_copier20181108104112829" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="bf_point_limite_copier20181108104111885" type="2" tolerance="20" maxScale="0" minScale="0"/>
+      <layer-setting enabled="1" units="1" id="pf_points_fixes_copier20181108104112082" type="2" tolerance="20" maxScale="0" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
@@ -793,13 +793,13 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="false">
-    <legendlayer showFeatureCount="1" open="false" checked="Qt::Checked" name="Chambres" drawingOrder="6">
+    <legendlayer showFeatureCount="0" open="false" checked="Qt::Checked" name="Chambres" drawingOrder="6">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="vw_qgep_wastewater_structure" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendgroup open="true" checked="Qt::Checked" name="Réseau">
-      <legendlayer showFeatureCount="1" open="false" checked="Qt::Checked" name="Tronçons" drawingOrder="12">
+      <legendlayer showFeatureCount="0" open="false" checked="Qt::Checked" name="Tronçons" drawingOrder="12">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="vw_qgep_reach" visible="1"/>
         </filegroup>
