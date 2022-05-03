@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.16.16-Hannover" saveDateTime="2022-05-03T16:43:29" saveUser="andrek" saveUserFull="André Kevin">
+<qgis projectname="" version="3.16.16-Hannover" saveDateTime="2022-05-03T16:45:10" saveUser="andrek" saveUserFull="André Kevin">
   <homePath path=""/>
   <title></title>
   <autotransaction active="1"/>
@@ -773,10 +773,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2557782.337783123832196</xmin>
-      <ymin>1141264.3445145261939615</ymin>
-      <xmax>2560270.340651776175946</xmax>
-      <ymax>1149274.66637579328380525</ymax>
+      <xmin>2557542.40309382323175669</xmin>
+      <ymin>1142728.86051203566603363</ymin>
+      <xmax>2558786.40452814940363169</xmax>
+      <ymax>1146734.0214426692109555</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -44725,8 +44725,8 @@ def my_form_open(dialog, layer, feature):
       </temporal>
       <renderer-v2 type="RuleRenderer" forceraster="0" enableorderby="0" symbollevels="0">
         <rules key="{cce03dbf-938f-4ec9-af57-57d3aae7a621}">
-          <rule key="{e85c1148-9ebe-44a9-957f-872d284d342b}" label="Renseigné" symbol="0" filter=" &quot;sige_batch_inspection_id&quot; IS NOT NULL"/>
-          <rule key="{1aead27c-a8ad-4e6d-8476-06ff455d1663}" label="Non renseigné" symbol="1" filter=" &quot;sige_batch_inspection_id&quot; IS NULL"/>
+          <rule key="{e85c1148-9ebe-44a9-957f-872d284d342b}" label="Renseigné" symbol="0" filter=" &quot;usr_batch_inspection_id&quot; IS NOT NULL"/>
+          <rule key="{1aead27c-a8ad-4e6d-8476-06ff455d1663}" label="Non renseigné" symbol="1" filter=" &quot;usr_batch_inspection_id&quot; IS NULL"/>
         </rules>
         <symbols>
           <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
@@ -45091,21 +45091,21 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_collecting_pipe_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_batch_cleaning_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_batch_inspection_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
@@ -45272,7 +45272,6 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig sortExpression="&quot;sige_batch_inspection_id&quot;" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
           <column type="field" width="-1" name="obj_id" hidden="0"/>
-          <column type="field" width="-1" name="sige_collecting_pipe_id" hidden="0"/>
           <column type="actions" width="-1" hidden="1"/>
           <column type="field" width="-1" name="function_hierarchic" hidden="0"/>
           <column type="field" width="-1" name="fk_owner" hidden="0"/>
@@ -45280,8 +45279,6 @@ def my_form_open(dialog, layer, feature):
           <column type="field" width="-1" name="rp_from_identifier" hidden="0"/>
           <column type="field" width="-1" name="rp_to_obj_id" hidden="0"/>
           <column type="field" width="-1" name="rp_to_identifier" hidden="0"/>
-          <column type="field" width="235" name="sige_batch_cleaning_id" hidden="0"/>
-          <column type="field" width="242" name="sige_batch_inspection_id" hidden="0"/>
           <column type="field" width="-1" name="material" hidden="0"/>
           <column type="field" width="-1" name="length_effective" hidden="0"/>
           <column type="field" width="-1" name="function_hydraulic" hidden="0"/>
@@ -45290,6 +45287,9 @@ def my_form_open(dialog, layer, feature):
           <column type="field" width="-1" name="clear_height" hidden="0"/>
           <column type="field" width="-1" name="height_width_ratio" hidden="0"/>
           <column type="field" width="-1" name="slope_per_mill" hidden="0"/>
+          <column type="field" width="-1" name="usr_collecting_pipe_id" hidden="0"/>
+          <column type="field" width="-1" name="usr_batch_cleaning_id" hidden="0"/>
+          <column type="field" width="-1" name="usr_batch_inspection_id" hidden="0"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -45344,6 +45344,9 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="sige_batch_inspection_id"/>
         <field editable="1" name="sige_collecting_pipe_id"/>
         <field editable="1" name="slope_per_mill"/>
+        <field editable="1" name="usr_batch_cleaning_id"/>
+        <field editable="1" name="usr_batch_inspection_id"/>
+        <field editable="1" name="usr_collecting_pipe_id"/>
         <field editable="1" name="ws_obj_id"/>
       </editable>
       <labelOnTop>
@@ -45364,6 +45367,9 @@ def my_form_open(dialog, layer, feature):
         <field labelOnTop="0" name="sige_batch_inspection_id"/>
         <field labelOnTop="0" name="sige_collecting_pipe_id"/>
         <field labelOnTop="0" name="slope_per_mill"/>
+        <field labelOnTop="0" name="usr_batch_cleaning_id"/>
+        <field labelOnTop="0" name="usr_batch_inspection_id"/>
+        <field labelOnTop="0" name="usr_collecting_pipe_id"/>
         <field labelOnTop="0" name="ws_obj_id"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
@@ -45461,8 +45467,8 @@ def my_form_open(dialog, layer, feature):
       </temporal>
       <renderer-v2 type="RuleRenderer" forceraster="0" enableorderby="0" symbollevels="0">
         <rules key="{cce03dbf-938f-4ec9-af57-57d3aae7a621}">
-          <rule key="{4c1c5d95-2d1e-4a2e-814a-91a02892abd0}" label="Renseigné" symbol="0" filter=" &quot;sige_batch_cleaning_id&quot; IS NOT NULL"/>
-          <rule key="{559ef1db-d767-42a8-8913-6b335cb15eab}" label="Non renseigné" symbol="1" filter=" &quot;sige_batch_cleaning_id&quot; IS NULL"/>
+          <rule key="{4c1c5d95-2d1e-4a2e-814a-91a02892abd0}" label="Renseigné" symbol="0" filter=" &quot;usr_batch_cleaning_id&quot; IS NOT NULL"/>
+          <rule key="{559ef1db-d767-42a8-8913-6b335cb15eab}" label="Non renseigné" symbol="1" filter=" &quot;usr_batch_cleaning_id&quot; IS NULL"/>
         </rules>
         <symbols>
           <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
@@ -45828,21 +45834,21 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_collecting_pipe_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_batch_cleaning_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_batch_inspection_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
@@ -46009,7 +46015,6 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig sortExpression="left(&quot;rp_from_identifier&quot;, 7) = '5004sup' OR left(&quot;rp_to_identifier&quot;, 7) = '5004sup'" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
           <column type="field" width="-1" name="obj_id" hidden="0"/>
-          <column type="field" width="-1" name="sige_collecting_pipe_id" hidden="0"/>
           <column type="actions" width="-1" hidden="1"/>
           <column type="field" width="-1" name="function_hierarchic" hidden="0"/>
           <column type="field" width="-1" name="fk_owner" hidden="0"/>
@@ -46017,8 +46022,6 @@ def my_form_open(dialog, layer, feature):
           <column type="field" width="-1" name="rp_from_identifier" hidden="0"/>
           <column type="field" width="-1" name="rp_to_obj_id" hidden="0"/>
           <column type="field" width="-1" name="rp_to_identifier" hidden="0"/>
-          <column type="field" width="235" name="sige_batch_cleaning_id" hidden="0"/>
-          <column type="field" width="242" name="sige_batch_inspection_id" hidden="0"/>
           <column type="field" width="-1" name="material" hidden="0"/>
           <column type="field" width="-1" name="length_effective" hidden="0"/>
           <column type="field" width="-1" name="function_hydraulic" hidden="0"/>
@@ -46027,6 +46030,9 @@ def my_form_open(dialog, layer, feature):
           <column type="field" width="-1" name="clear_height" hidden="0"/>
           <column type="field" width="-1" name="height_width_ratio" hidden="0"/>
           <column type="field" width="-1" name="slope_per_mill" hidden="0"/>
+          <column type="field" width="-1" name="usr_collecting_pipe_id" hidden="0"/>
+          <column type="field" width="-1" name="usr_batch_cleaning_id" hidden="0"/>
+          <column type="field" width="-1" name="usr_batch_inspection_id" hidden="0"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -46081,6 +46087,9 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="sige_batch_inspection_id"/>
         <field editable="1" name="sige_collecting_pipe_id"/>
         <field editable="1" name="slope_per_mill"/>
+        <field editable="1" name="usr_batch_cleaning_id"/>
+        <field editable="1" name="usr_batch_inspection_id"/>
+        <field editable="1" name="usr_collecting_pipe_id"/>
         <field editable="1" name="ws_obj_id"/>
       </editable>
       <labelOnTop>
@@ -46101,6 +46110,9 @@ def my_form_open(dialog, layer, feature):
         <field labelOnTop="0" name="sige_batch_inspection_id"/>
         <field labelOnTop="0" name="sige_collecting_pipe_id"/>
         <field labelOnTop="0" name="slope_per_mill"/>
+        <field labelOnTop="0" name="usr_batch_cleaning_id"/>
+        <field labelOnTop="0" name="usr_batch_inspection_id"/>
+        <field labelOnTop="0" name="usr_collecting_pipe_id"/>
         <field labelOnTop="0" name="ws_obj_id"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
@@ -46205,8 +46217,8 @@ def my_form_open(dialog, layer, feature):
       </temporal>
       <renderer-v2 type="RuleRenderer" forceraster="0" enableorderby="0" symbollevels="0">
         <rules key="{cce03dbf-938f-4ec9-af57-57d3aae7a621}">
-          <rule key="{aad86e7a-4cd4-49a7-8cfd-e7020ba41612}" label="Renseigné" symbol="0" filter="&quot;sige_collecting_pipe_id&quot; IS NOT NULL"/>
-          <rule key="{7c180675-f7e4-48e6-bd64-094d1f7f59f6}" label="Non renseigné" symbol="1" filter="&quot;sige_collecting_pipe_id&quot; IS NULL"/>
+          <rule key="{aad86e7a-4cd4-49a7-8cfd-e7020ba41612}" label="Renseigné" symbol="0" filter="&quot;usr_collecting_pipe_id&quot; IS NOT NULL"/>
+          <rule key="{7c180675-f7e4-48e6-bd64-094d1f7f59f6}" label="Non renseigné" symbol="1" filter="&quot;usr_collecting_pipe_id&quot; IS NULL"/>
         </rules>
         <symbols>
           <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
@@ -46572,21 +46584,21 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_collecting_pipe_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_batch_cleaning_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="usr_batch_inspection_id">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
@@ -46753,7 +46765,6 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig sortExpression="left(&quot;rp_from_identifier&quot;, 7) = '5004sup' OR left(&quot;rp_to_identifier&quot;, 7) = '5004sup'" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
           <column type="field" width="-1" name="obj_id" hidden="0"/>
-          <column type="field" width="-1" name="sige_collecting_pipe_id" hidden="0"/>
           <column type="actions" width="-1" hidden="1"/>
           <column type="field" width="-1" name="function_hierarchic" hidden="0"/>
           <column type="field" width="-1" name="fk_owner" hidden="0"/>
@@ -46761,8 +46772,6 @@ def my_form_open(dialog, layer, feature):
           <column type="field" width="-1" name="rp_from_identifier" hidden="0"/>
           <column type="field" width="-1" name="rp_to_obj_id" hidden="0"/>
           <column type="field" width="-1" name="rp_to_identifier" hidden="0"/>
-          <column type="field" width="-1" name="sige_batch_cleaning_id" hidden="0"/>
-          <column type="field" width="-1" name="sige_batch_inspection_id" hidden="0"/>
           <column type="field" width="-1" name="material" hidden="0"/>
           <column type="field" width="-1" name="length_effective" hidden="0"/>
           <column type="field" width="-1" name="function_hydraulic" hidden="0"/>
@@ -46771,6 +46780,9 @@ def my_form_open(dialog, layer, feature):
           <column type="field" width="-1" name="clear_height" hidden="0"/>
           <column type="field" width="-1" name="height_width_ratio" hidden="0"/>
           <column type="field" width="-1" name="slope_per_mill" hidden="0"/>
+          <column type="field" width="-1" name="usr_collecting_pipe_id" hidden="0"/>
+          <column type="field" width="-1" name="usr_batch_cleaning_id" hidden="0"/>
+          <column type="field" width="-1" name="usr_batch_inspection_id" hidden="0"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -46825,6 +46837,9 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="sige_batch_inspection_id"/>
         <field editable="1" name="sige_collecting_pipe_id"/>
         <field editable="1" name="slope_per_mill"/>
+        <field editable="1" name="usr_batch_cleaning_id"/>
+        <field editable="1" name="usr_batch_inspection_id"/>
+        <field editable="1" name="usr_collecting_pipe_id"/>
         <field editable="1" name="ws_obj_id"/>
       </editable>
       <labelOnTop>
@@ -46845,6 +46860,9 @@ def my_form_open(dialog, layer, feature):
         <field labelOnTop="0" name="sige_batch_inspection_id"/>
         <field labelOnTop="0" name="sige_collecting_pipe_id"/>
         <field labelOnTop="0" name="slope_per_mill"/>
+        <field labelOnTop="0" name="usr_batch_cleaning_id"/>
+        <field labelOnTop="0" name="usr_batch_inspection_id"/>
+        <field labelOnTop="0" name="usr_collecting_pipe_id"/>
         <field labelOnTop="0" name="ws_obj_id"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
@@ -69376,7 +69394,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="1141264.3445145261939615" xmax="2565545.04830944770947099" xmin="2552507.63012545229867101" ymax="1149274.66637579328380525">
+    <DefaultViewExtent ymin="1142728.86051203566603363" xmax="2561423.75835698517039418" xmin="2554905.04926498746499419" ymax="1146734.0214426692109555">
       <spatialrefsys>
         <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - Liechtenstein and Switzerland"],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
         <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
